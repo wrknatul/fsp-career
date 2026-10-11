@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ФСП.Карьера — демо</title>
+<meta name="description" content="Прототип платформы подбора ИТ-специалистов с обратной механикой. ЛЦТ 2026, спецтрек ФСП.">
+<style>
+  :root { --bg: #F6F6F9; --card: #fff; --ink: #1B1C21; --muted: #5E6070; --line: #E3E4EC; --accent: #402FFF; --code: #F0F0F6; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #131419; --card: #1B1C21; --ink: #F2F2F6; --muted: #A9ABBA; --line: #2E3039; --accent: #9A8FFF; --code: #25262E; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.55 Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 980px; margin: 0 auto; padding: 40px 16px 64px; }
+  .eyebrow { font: 700 13px/1.4 ui-monospace, "JetBrains Mono", Menlo, monospace; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); margin: 0; }
+  h1 { font-size: clamp(30px, 5vw, 44px); line-height: 1.12; margin: 10px 0 12px; letter-spacing: -.01em; }
+  h2 { font-size: 22px; margin: 0 0 12px; }
+  .lead { color: var(--muted); max-width: 760px; margin: 0 0 28px; }
+  video { display: block; width: 100%; aspect-ratio: 16 / 9; background: #000; border-radius: 14px; border: 1px solid var(--line); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; margin-top: 16px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 22px 24px; }
+  ol, ul { margin: 0; padding-left: 22px; }
+  li { margin: 4px 0; }
+  pre { background: var(--code); border-radius: 10px; padding: 14px 16px; overflow-x: auto; font: 14px/1.5 ui-monospace, "JetBrains Mono", Menlo, monospace; margin: 0 0 12px; }
+  code { font: 14px/1.5 ui-monospace, "JetBrains Mono", Menlo, monospace; background: var(--code); border-radius: 5px; padding: 1px 6px; }
+  pre code { background: none; padding: 0; }
+  a { color: var(--accent); }
+  .note { color: var(--muted); font-size: 15px; margin: 12px 0 0; }
+  footer { color: var(--muted); font-size: 15px; margin-top: 28px; }
+</style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">ЛЦТ 2026 · спецтрек ФСП · команда «Граф магистралей»</p>
+  <h1>ФСП.Карьера</h1>
+  <p class="lead">Платформа подбора ИТ-специалистов с обратной механикой: соискатель не откликается, а собирает подтверждаемый профиль. Работодатель находит его по категории «стек × грейд × роль × формат» и сам присылает оффер с зарплатой.</p>
+
+  <video controls preload="metadata" poster="demo/poster.jpg" src="demo/fsp-career-demo.mp4"></video>
+  <p class="note">Видео без звука, 2 минуты 25 секунд: запись прототипа с подписями к каждому шагу. Не воспроизводится — <a href="demo/fsp-career-demo.mp4">откройте файл напрямую</a>.</p>
+
+  <div class="grid">
+    <section class="card">
+      <h2>Что на видео</h2>
+      <ol>
+        <li>Соискатель входит: профиль пустой, категории нет.</li>
+        <li>Привязывает ФСП ID — результаты подтверждает реестр.</li>
+        <li>Загружает резюме — навыки и опыт разобраны правилами.</li>
+        <li>Сдаёт экспресс-тест — навык подтверждён.</li>
+        <li>Видит грейд и из чего он сложился.</li>
+        <li>Работодатель открывает матрицу «стек × грейд».</li>
+        <li>Ищет обычным текстом, видит объяснение оценки.</li>
+        <li>Отправляет оффер с суммой — контактов ещё не видит.</li>
+        <li>Соискатель принимает — стороны получают контакты.</li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h2>Запустить у себя</h2>
+      <pre><code>git clone https://github.com/wrknatul/fsp-career
+cd fsp-career
+docker compose up --build</code></pre>
+      <p style="margin: 0 0 10px;">Через пару минут откройте <code>http://localhost:8088</code> и нажмите «Войти в демо как соискатель» или «Войти в демо как работодатель».</p>
+      <ul>
+        <li>Соискатель: <code>demo.candidate@fsp-career.test</code></li>
+        <li>Работодатель: <code>demo.employer@fsp-career.test</code></li>
+        <li>Пароль демо-учёток: <code>demo12345</code></li>
+      </ul>
+      <p class="note">Нужны только Docker и Docker Compose. Данные реестра ФСП в прототипе смоделированы.</p>
+    </section>
+  </div>
+
+  <section class="card" style="margin-top: 16px;">
+    <h2>Материалы</h2>
+    <ul>
+      <li><a href="https://github.com/wrknatul/fsp-career">Репозиторий с кодом и инструкцией</a></li>
+      <li><a href="presentation/fsp-career.pdf">Презентация, 12 слайдов (PDF)</a></li>
+      <li><a href="https://github.com/wrknatul/fsp-career/blob/main/docs/ARCHITECTURE.md">Архитектура решения</a></li>
+      <li><a href="https://github.com/wrknatul/fsp-career/blob/main/docs/FSP_INTEGRATION.md">Как подключить настоящий реестр ФСП</a></li>
+      <li><a href="https://github.com/wrknatul/fsp-career/blob/main/docs/API_CONTRACT.md">Контракт API</a></li>
+    </ul>
+  </section>
+
+  <footer>Максим Лутан, Кирилл Соседов · октябрь 2026</footer>
+</main>
+</body>
+</html>
