@@ -1,0 +1,15 @@
+# Keep the build context small: the image only needs requirements.txt,
+# app/, alembic/, alembic.ini and entrypoint.sh.
+.venv
+__pycache__
+*.pyc
+.pytest_cache
+.ruff_cache
+*.egg-info
+tests
+*.sqlite3
+*.db
+.env
+.env.*
+Dockerfile
+.dockerignore

@@ -1,0 +1,398 @@
+[
+  {
+    "id": "python",
+    "title": "Python",
+    "aliases": ["python", "python3", "python 3", "cpython", "питон", "пайтон"],
+    "stacks": {"backend": "core", "ml": "core", "analyst": "secondary", "qa": "secondary", "devops": "secondary"}
+  },
+  {
+    "id": "java",
+    "title": "Java",
+    "aliases": ["java", "java se", "java ee", "джава"],
+    "stacks": {"backend": "core", "mobile": "secondary"}
+  },
+  {
+    "id": "kotlin",
+    "title": "Kotlin",
+    "aliases": ["kotlin", "котлин"],
+    "stacks": {"mobile": "core", "backend": "secondary"}
+  },
+  {
+    "id": "swift",
+    "title": "Swift",
+    "aliases": ["swift", "swiftui", "свифт"],
+    "stacks": {"mobile": "core"}
+  },
+  {
+    "id": "go",
+    "title": "Go",
+    "aliases": ["golang", "язык go", "язык программирования go"],
+    "stacks": {"backend": "core", "devops": "secondary"}
+  },
+  {
+    "id": "cpp",
+    "title": "C++",
+    "aliases": ["c++", "cpp", "с++", "си++", "плюсы", "c plus plus", "си плюс плюс"],
+    "stacks": {"embedded": "core", "backend": "secondary"}
+  },
+  {
+    "id": "csharp",
+    "title": "C#",
+    "aliases": ["c#", "с#", "c sharp", "си шарп", "сишарп", ".net", "dotnet", "asp.net"],
+    "stacks": {"backend": "core"}
+  },
+  {
+    "id": "javascript",
+    "title": "JavaScript",
+    "aliases": ["javascript", "java script", "js", "ecmascript", "es6", "jquery", "джаваскрипт", "джава скрипт"],
+    "stacks": {"frontend": "core", "backend": "secondary"}
+  },
+  {
+    "id": "typescript",
+    "title": "TypeScript",
+    "aliases": ["typescript", "тайпскрипт"],
+    "stacks": {"frontend": "core", "backend": "secondary"}
+  },
+  {
+    "id": "rust",
+    "title": "Rust",
+    "aliases": ["rust", "раст"],
+    "stacks": {"backend": "secondary", "embedded": "secondary"}
+  },
+  {
+    "id": "php",
+    "title": "PHP",
+    "aliases": ["php", "пхп", "laravel", "symfony"],
+    "stacks": {"backend": "core"}
+  },
+  {
+    "id": "sql",
+    "title": "SQL",
+    "aliases": ["sql", "mysql", "sqlite", "mariadb", "t-sql", "tsql", "pl/sql", "plsql", "mssql", "ms sql", "sql server", "эскюэль", "эскьюэль"],
+    "stacks": {"analyst": "core", "backend": "secondary"}
+  },
+  {
+    "id": "html-css",
+    "title": "HTML/CSS",
+    "aliases": ["html", "css", "html5", "css3", "html/css", "html css", "html-css", "scss", "sass", "bootstrap", "tailwind", "tailwindcss", "верстка", "html и css"],
+    "stacks": {"frontend": "core"}
+  },
+  {
+    "id": "fastapi",
+    "title": "FastAPI",
+    "aliases": ["fastapi", "fast api", "фастапи"],
+    "stacks": {"backend": "core"}
+  },
+  {
+    "id": "django",
+    "title": "Django",
+    "aliases": ["django", "django rest framework", "drf", "джанго"],
+    "stacks": {"backend": "core"}
+  },
+  {
+    "id": "spring",
+    "title": "Spring",
+    "aliases": ["spring", "spring boot", "springboot", "спринг"],
+    "stacks": {"backend": "core"}
+  },
+  {
+    "id": "flask",
+    "title": "Flask",
+    "aliases": ["flask", "фласк"],
+    "stacks": {"backend": "secondary"}
+  },
+  {
+    "id": "react",
+    "title": "React",
+    "aliases": ["react", "react.js", "reactjs", "react js", "redux", "next.js", "nextjs", "реакт"],
+    "stacks": {"frontend": "core"}
+  },
+  {
+    "id": "vue",
+    "title": "Vue.js",
+    "aliases": ["vue", "vue.js", "vuejs", "vue js", "vue3", "vuex", "pinia", "nuxt", "вью"],
+    "stacks": {"frontend": "core"}
+  },
+  {
+    "id": "angular",
+    "title": "Angular",
+    "aliases": ["angular", "angularjs", "angular.js", "ангуляр"],
+    "stacks": {"frontend": "core"}
+  },
+  {
+    "id": "nodejs",
+    "title": "Node.js",
+    "aliases": ["node.js", "nodejs", "node js", "express.js", "expressjs", "nestjs", "nest.js", "нодежс"],
+    "stacks": {"backend": "core", "frontend": "secondary"}
+  },
+  {
+    "id": "flutter",
+    "title": "Flutter",
+    "aliases": ["flutter", "dart", "флаттер"],
+    "stacks": {"mobile": "core"}
+  },
+  {
+    "id": "android",
+    "title": "Android",
+    "aliases": ["android", "android sdk", "jetpack compose", "андроид"],
+    "stacks": {"mobile": "core"}
+  },
+  {
+    "id": "ios",
+    "title": "iOS",
+    "aliases": ["ios", "uikit", "айос"],
+    "stacks": {"mobile": "core"}
+  },
+  {
+    "id": "react-native",
+    "title": "React Native",
+    "aliases": ["react native", "react-native", "reactnative", "реакт нейтив", "реакт натив"],
+    "stacks": {"mobile": "core", "frontend": "secondary"}
+  },
+  {
+    "id": "pytorch",
+    "title": "PyTorch",
+    "aliases": ["pytorch", "torch", "пайторч"],
+    "stacks": {"ml": "core"}
+  },
+  {
+    "id": "tensorflow",
+    "title": "TensorFlow",
+    "aliases": ["tensorflow", "tensor flow", "keras", "тензорфлоу"],
+    "stacks": {"ml": "core"}
+  },
+  {
+    "id": "sklearn",
+    "title": "scikit-learn",
+    "aliases": ["scikit-learn", "scikit learn", "sklearn", "сайкит лерн", "сайкит-лерн"],
+    "stacks": {"ml": "core"}
+  },
+  {
+    "id": "pandas",
+    "title": "pandas",
+    "aliases": ["pandas", "пандас"],
+    "stacks": {"analyst": "core", "ml": "secondary"}
+  },
+  {
+    "id": "docker",
+    "title": "Docker",
+    "aliases": ["docker", "dockerfile", "docker-compose", "docker compose", "докер"],
+    "stacks": {"devops": "core", "backend": "secondary"}
+  },
+  {
+    "id": "kubernetes",
+    "title": "Kubernetes",
+    "aliases": ["kubernetes", "k8s", "helm", "кубернетес"],
+    "stacks": {"devops": "core"}
+  },
+  {
+    "id": "terraform",
+    "title": "Terraform",
+    "aliases": ["terraform", "терраформ"],
+    "stacks": {"devops": "core"}
+  },
+  {
+    "id": "ansible",
+    "title": "Ansible",
+    "aliases": ["ansible", "ансибл"],
+    "stacks": {"devops": "core"}
+  },
+  {
+    "id": "linux",
+    "title": "Linux",
+    "aliases": ["linux", "unix", "ubuntu", "debian", "centos", "bash", "линукс"],
+    "stacks": {"devops": "core", "security": "secondary", "embedded": "secondary"}
+  },
+  {
+    "id": "ci-cd",
+    "title": "CI/CD",
+    "aliases": ["ci/cd", "ci-cd", "cicd", "ci cd", "gitlab ci", "gitlab-ci", "github actions", "jenkins", "teamcity", "circleci", "continuous integration", "непрерывная интеграция"],
+    "stacks": {"devops": "core", "qa": "secondary"}
+  },
+  {
+    "id": "nginx",
+    "title": "Nginx",
+    "aliases": ["nginx", "нгинкс", "энджинкс"],
+    "stacks": {"devops": "secondary"}
+  },
+  {
+    "id": "git",
+    "title": "Git",
+    "aliases": ["git", "github", "gitlab", "bitbucket", "гит", "гитхаб", "гитлаб"],
+    "stacks": {}
+  },
+  {
+    "id": "postgresql",
+    "title": "PostgreSQL",
+    "aliases": ["postgresql", "postgres", "postgre", "psql", "plpgsql", "постгрес", "постгре"],
+    "stacks": {"backend": "core", "analyst": "secondary"}
+  },
+  {
+    "id": "mongodb",
+    "title": "MongoDB",
+    "aliases": ["mongodb", "mongo", "монго", "монгодб"],
+    "stacks": {"backend": "secondary"}
+  },
+  {
+    "id": "redis",
+    "title": "Redis",
+    "aliases": ["redis", "редис"],
+    "stacks": {"backend": "secondary"}
+  },
+  {
+    "id": "kafka",
+    "title": "Kafka",
+    "aliases": ["kafka", "кафка"],
+    "stacks": {"backend": "secondary"}
+  },
+  {
+    "id": "rabbitmq",
+    "title": "RabbitMQ",
+    "aliases": ["rabbitmq", "rabbit mq", "rabbit", "раббит"],
+    "stacks": {"backend": "secondary"}
+  },
+  {
+    "id": "algorithms",
+    "title": "Алгоритмы и структуры данных",
+    "aliases": ["algorithms", "data structures", "алгоритмы", "структуры данных", "алгоритмы и структуры данных", "спортивное программирование", "олимпиадное программирование", "leetcode", "codeforces", "icpc", "acm icpc"],
+    "stacks": {"backend": "core", "ml": "secondary"}
+  },
+  {
+    "id": "product-development",
+    "title": "Продуктовая разработка",
+    "aliases": ["product development", "product-development", "продуктовая разработка", "продуктовое программирование"],
+    "stacks": {"backend": "secondary", "frontend": "secondary"}
+  },
+  {
+    "id": "system-design",
+    "title": "Проектирование систем",
+    "aliases": ["system design", "system-design", "системный дизайн", "проектирование систем", "highload", "высоконагруженные системы", "microservices", "микросервисы", "микросервисная архитектура"],
+    "stacks": {"backend": "secondary"}
+  },
+  {
+    "id": "infosec",
+    "title": "Информационная безопасность",
+    "aliases": ["infosec", "information security", "cyber security", "cybersecurity", "информационная безопасность", "информационной безопасности", "кибербезопасность", "siem"],
+    "stacks": {"security": "core"}
+  },
+  {
+    "id": "pentest",
+    "title": "Тестирование на проникновение",
+    "aliases": ["pentest", "pentesting", "pen test", "pen testing", "penetration testing", "пентест", "тестирование на проникновение", "burp suite", "metasploit", "nmap"],
+    "stacks": {"security": "core"}
+  },
+  {
+    "id": "cryptography",
+    "title": "Криптография",
+    "aliases": ["cryptography", "криптография"],
+    "stacks": {"security": "core"}
+  },
+  {
+    "id": "reverse-engineering",
+    "title": "Реверс-инжиниринг",
+    "aliases": ["reverse engineering", "reverse-engineering", "реверс-инжиниринг", "реверс инжиниринг", "реверс", "ghidra", "ida pro"],
+    "stacks": {"security": "core"}
+  },
+  {
+    "id": "robotics",
+    "title": "Робототехника",
+    "aliases": ["robotics", "робототехника"],
+    "stacks": {"embedded": "core"}
+  },
+  {
+    "id": "ros",
+    "title": "ROS",
+    "aliases": ["ros", "ros1", "ros2", "ros 2"],
+    "stacks": {"embedded": "core"}
+  },
+  {
+    "id": "uav",
+    "title": "БПЛА / БАС",
+    "aliases": ["uav", "uavs", "drone", "drones", "бпла", "дроны"],
+    "stacks": {"embedded": "core"}
+  },
+  {
+    "id": "microcontrollers",
+    "title": "Микроконтроллеры",
+    "aliases": ["microcontroller", "microcontrollers", "arduino", "stm32", "esp32", "avr", "микроконтроллеры", "ардуино"],
+    "stacks": {"embedded": "core"}
+  },
+  {
+    "id": "machine-learning",
+    "title": "Машинное обучение",
+    "aliases": ["machine learning", "ml", "deep learning", "data science", "машинное обучение", "глубокое обучение", "дата сайенс", "дата-сайенс"],
+    "stacks": {"ml": "core"}
+  },
+  {
+    "id": "nlp",
+    "title": "NLP",
+    "aliases": ["nlp", "natural language processing", "обработка естественного языка", "обработка текстов"],
+    "stacks": {"ml": "core"}
+  },
+  {
+    "id": "llm",
+    "title": "LLM",
+    "aliases": ["llm", "llms", "large language model", "large language models", "langchain", "prompt engineering", "большие языковые модели", "языковые модели"],
+    "stacks": {"ml": "core"}
+  },
+  {
+    "id": "computer-vision",
+    "title": "Компьютерное зрение",
+    "aliases": ["computer vision", "opencv", "компьютерное зрение", "компьютерного зрения"],
+    "stacks": {"ml": "core", "embedded": "secondary"}
+  },
+  {
+    "id": "data-analysis",
+    "title": "Анализ данных",
+    "aliases": ["data analysis", "data analytics", "анализ данных", "аналитика данных", "аналитик данных"],
+    "stacks": {"analyst": "core"}
+  },
+  {
+    "id": "business-analysis",
+    "title": "Бизнес-анализ",
+    "aliases": ["business analysis", "бизнес-анализ", "бизнес-аналитика", "системный анализ", "bpmn"],
+    "stacks": {"analyst": "core"}
+  },
+  {
+    "id": "bi-tools",
+    "title": "BI-инструменты",
+    "aliases": ["power bi", "powerbi", "tableau", "datalens", "metabase", "looker", "qlik", "superset", "bi-инструменты"],
+    "stacks": {"analyst": "core"}
+  },
+  {
+    "id": "testing",
+    "title": "Тестирование",
+    "aliases": ["testing", "qa", "manual testing", "test design", "тестирование", "ручное тестирование", "тест-дизайн", "тест-кейсы", "test cases"],
+    "stacks": {"qa": "core"}
+  },
+  {
+    "id": "test-automation",
+    "title": "Автоматизация тестирования",
+    "aliases": ["test automation", "автоматизация тестирования", "автотесты", "автотестирование", "pytest", "unittest", "junit", "testng", "jest", "cypress", "playwright"],
+    "stacks": {"qa": "core"}
+  },
+  {
+    "id": "selenium",
+    "title": "Selenium",
+    "aliases": ["selenium", "selenide", "webdriver", "селениум"],
+    "stacks": {"qa": "core"}
+  },
+  {
+    "id": "jira",
+    "title": "Jira",
+    "aliases": ["jira", "джира"],
+    "stacks": {"analyst": "secondary", "qa": "secondary"}
+  },
+  {
+    "id": "figma",
+    "title": "Figma",
+    "aliases": ["figma", "фигма"],
+    "stacks": {"frontend": "secondary"}
+  },
+  {
+    "id": "ui-ux",
+    "title": "UI/UX",
+    "aliases": ["ui/ux", "ux/ui", "ui-ux", "ui ux", "ux", "ux-дизайн", "ui-дизайн", "usability", "юзабилити", "дизайн интерфейсов"],
+    "stacks": {"frontend": "secondary"}
+  }
+]

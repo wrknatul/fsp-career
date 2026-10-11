@@ -1,0 +1,116 @@
+/*
+  Design tokens. FSP palette (SPEC section 9) plus derived tints.
+  Contrast notes (WCAG AA, 4.5:1 for body text):
+  - --c-text-muted (#5e5f66) is 6.3:1 on white and 5.8:1 on --c-bg.
+  - --c-placeholder (#6b6c73) is 5.2:1 on white and 4.8:1 on --c-bg: placeholders and third-level text (.faint).
+  - --c-text-faint (#9b9c9e, brand gray) is 2.75:1 on white: decorative only (dots, dividers), never text.
+  - --c-danger / --c-success are fills and borders; text uses --c-danger-text / --c-success-text.
+*/
+:root {
+  color-scheme: light;
+
+  /* Brand */
+  --c-primary: #402fff;
+  --c-primary-hover: #3324e6;
+  --c-primary-active: #2819c2;
+  --c-primary-soft: #eeedff;
+  --c-primary-soft-2: #dcd8ff;
+  --c-on-primary: #ffffff;
+
+  --c-ink: #1b1c21;
+  --c-ink-2: #202129;
+  --c-ink-3: #2d2e38;
+  --c-ink-line: rgba(255, 255, 255, 0.12);
+  --c-on-ink: #f4f4f6;
+  --c-on-ink-muted: #b4b5ba;
+
+  /* Surfaces and lines */
+  --c-bg: #f4f4f6;
+  --c-surface: #ffffff;
+  --c-surface-2: #fafafb;
+  --c-border: #ededed;
+  --c-border-strong: #d9d9de;
+
+  /* Text */
+  --c-text: #1b1c21;
+  --c-text-muted: #5e5f66;
+  --c-placeholder: #6b6c73;
+  --c-text-faint: #9b9c9e;
+
+  /* Status */
+  --c-danger: #ff4d4f;
+  --c-danger-text: #c42b33;
+  --c-danger-soft: #fff0f0;
+  --c-danger-border: #ffc9ca;
+  --c-success: #1fa971;
+  --c-success-text: #12794f;
+  --c-success-soft: #e3f6ee;
+  --c-success-border: #bde8d3;
+  --c-warning: #f5a524;
+  --c-warning-text: #8a5300;
+  --c-warning-soft: #fff4de;
+  --c-warning-border: #f6d9a1;
+  --c-neutral-soft: #ececf0;
+  --c-neutral-text: #4a4b52;
+
+  /* Typography */
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-md: 1.125rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 1.5rem;
+  --fs-2xl: 2rem;
+  --fs-3xl: clamp(2.125rem, 1.5rem + 2.8vw, 3.5rem);
+
+  /* Spacing (4px grid) */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.25rem;
+  --sp-6: 1.5rem;
+  --sp-8: 2rem;
+  --sp-10: 2.5rem;
+  --sp-12: 3rem;
+  --sp-16: 4rem;
+  --sp-20: 5rem;
+
+  /* Shape */
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 16px;
+  --r-xl: 24px;
+  --r-pill: 999px;
+
+  --shadow-sm: 0 1px 2px rgba(27, 28, 33, 0.05);
+  --shadow-md: 0 4px 16px rgba(27, 28, 33, 0.08);
+  --shadow-lg: 0 16px 48px rgba(27, 28, 33, 0.16);
+  --ring: 0 0 0 3px rgba(64, 47, 255, 0.28);
+
+  /* Layout */
+  --content-w: 1180px;
+  --narrow-w: 720px;
+  --gutter: 16px;
+  --header-h: 64px;
+
+  /* Motion */
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --t-fast: 120ms;
+  --t-base: 200ms;
+
+  /* Layers */
+  --z-header: 20;
+  --z-drawer: 60;
+  --z-modal: 100;
+  --z-toast: 200;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --gutter: 24px;
+  }
+}

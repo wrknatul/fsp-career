@@ -1,0 +1,1836 @@
+{
+  "meta": {
+    "fictional": true,
+    "generator": "app.fsp_registry.generate",
+    "seed": 42
+  },
+  "athletes": [
+    {
+      "fsp_id": "FSP-2024-00117",
+      "full_name": "Смирнов Алексей Игоревич",
+      "birth_date": "2003-05-14",
+      "region": "Республика Татарстан",
+      "city": "Казань",
+      "ranks": [
+        {
+          "rank": "kms",
+          "discipline": "algorithmic",
+          "assigned_at": "2024-06-15",
+          "order_no": "ORD-2024-0381"
+        }
+      ],
+      "results": [
+        {
+          "result_id": "RES-2024-00117-1",
+          "competition": {
+            "competition_id": "COMP-2023-02",
+            "title": "Первенство Поволжья по алгоритмам",
+            "discipline": "algorithmic",
+            "level": "regional",
+            "kind": "junior_championship",
+            "format": "individual",
+            "city": "Самара",
+            "date_start": "2023-04-08",
+            "date_end": "2023-04-09",
+            "participants_total": 148
+          },
+          "place": 1,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2023-02/res-2024-00117-1"
+        },
+        {
+          "result_id": "RES-2024-00117-2",
+          "competition": {
+            "competition_id": "COMP-2023-03",
+            "title": "Хакатон «Прототип-Урал»",
+            "discipline": "product",
+            "level": "regional",
+            "kind": "festival",
+            "format": "team",
+            "city": "Екатеринбург",
+            "date_start": "2023-05-20",
+            "date_end": "2023-05-21",
+            "participants_total": 62
+          },
+          "place": 2,
+          "team_name": "Нулевой Деплой",
+          "team_role": "backend",
+          "protocol_url": "https://fsp.example/protocols/comp-2023-03/res-2024-00117-2"
+        },
+        {
+          "result_id": "RES-2024-00117-3",
+          "competition": {
+            "competition_id": "COMP-2023-05",
+            "title": "Чемпионат Сибири по алгоритмам",
+            "discipline": "algorithmic",
+            "level": "district",
+            "kind": "championship",
+            "format": "individual",
+            "city": "Новосибирск",
+            "date_start": "2023-09-23",
+            "date_end": "2023-09-24",
+            "participants_total": 215
+          },
+          "place": 4,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2023-05/res-2024-00117-3"
+        },
+        {
+          "result_id": "RES-2024-00117-4",
+          "competition": {
+            "competition_id": "COMP-2023-06",
+            "title": "Окружной хакатон «Волга-Продукт»",
+            "discipline": "product",
+            "level": "district",
+            "kind": "championship",
+            "format": "team",
+            "city": "Нижний Новгород",
+            "date_start": "2023-10-14",
+            "date_end": "2023-10-15",
+            "participants_total": 58
+          },
+          "place": 3,
+          "team_name": "Нулевой Деплой",
+          "team_role": "backend",
+          "protocol_url": "https://fsp.example/protocols/comp-2023-06/res-2024-00117-4"
+        },
+        {
+          "result_id": "RES-2024-00117-5",
+          "competition": {
+            "competition_id": "COMP-2024-02",
+            "title": "Всероссийская олимпиада по алгоритмам «Кремний»",
+            "discipline": "algorithmic",
+            "level": "national",
+            "kind": "championship",
+            "format": "individual",
+            "city": "Москва",
+            "date_start": "2024-04-27",
+            "date_end": "2024-04-28",
+            "participants_total": 412
+          },
+          "place": 3,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2024-02/res-2024-00117-5"
+        },
+        {
+          "result_id": "RES-2024-00117-6",
+          "competition": {
+            "competition_id": "COMP-2024-03",
+            "title": "Всероссийский хакатон «Цифровой горизонт»",
+            "discipline": "product",
+            "level": "national",
+            "kind": "championship",
+            "format": "team",
+            "city": "Казань",
+            "date_start": "2024-06-08",
+            "date_end": "2024-06-10",
+            "participants_total": 96
+          },
+          "place": 2,
+          "team_name": "Нулевой Деплой",
+          "team_role": "captain",
+          "protocol_url": "https://fsp.example/protocols/comp-2024-03/res-2024-00117-6"
+        }
+      ]
+    },
+    {
+      "fsp_id": "FSP-2024-00329",
+      "full_name": "Лебедев Никита Викторович",
+      "birth_date": "1997-02-13",
+      "region": "Воронежская область",
+      "city": "Воронеж",
+      "ranks": [
+        {
+          "rank": "third",
+          "discipline": "product",
+          "assigned_at": "2024-10-15",
+          "order_no": "ORD-2024-8819"
+        }
+      ],
+      "results": [
+        {
+          "result_id": "RES-2024-00329-1",
+          "competition": {
+            "competition_id": "COMP-2023-01",
+            "title": "Открытый кубок «Лисья нора»",
+            "discipline": "algorithmic",
+            "level": "municipal",
+            "kind": "cup",
+            "format": "individual",
+            "city": "Ижевск",
+            "date_start": "2023-02-18",
+            "date_end": "2023-02-18",
+            "participants_total": 96
+          },
+          "place": 10,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2023-01/res-2024-00329-1"
+        },
+        {
+          "result_id": "RES-2024-00329-2",
+          "competition": {
+            "competition_id": "COMP-2023-04",
+            "title": "Кубок защиты «Красная нить»",
+            "discipline": "security",
+            "level": "regional",
+            "kind": "cup",
+            "format": "team",
+            "city": "Тула",
+            "date_start": "2023-06-10",
+            "date_end": "2023-06-11",
+            "participants_total": 44
+          },
+          "place": 2,
+          "team_name": "Красный Флаг",
+          "team_role": "backend",
+          "protocol_url": "https://fsp.example/protocols/comp-2023-04/res-2024-00329-2"
+        },
+        {
+          "result_id": "RES-2024-00329-3",
+          "competition": {
+            "competition_id": "COMP-2024-03",
+            "title": "Всероссийский хакатон «Цифровой горизонт»",
+            "discipline": "product",
+            "level": "national",
+            "kind": "championship",
+            "format": "team",
+            "city": "Казань",
+            "date_start": "2024-06-08",
+            "date_end": "2024-06-10",
+            "participants_total": 96
+          },
+          "place": 2,
+          "team_name": "Глубокий Поиск",
+          "team_role": "captain",
+          "protocol_url": "https://fsp.example/protocols/comp-2024-03/res-2024-00329-3"
+        },
+        {
+          "result_id": "RES-2024-00329-4",
+          "competition": {
+            "competition_id": "COMP-2025-01",
+            "title": "Международный кубок «Меридиан-Код»",
+            "discipline": "algorithmic",
+            "level": "international",
+            "kind": "cup",
+            "format": "individual",
+            "city": "Астана",
+            "date_start": "2025-03-22",
+            "date_end": "2025-03-23",
+            "participants_total": 530
+          },
+          "place": 5,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2025-01/res-2024-00329-4"
+        },
+        {
+          "result_id": "RES-2024-00329-5",
+          "competition": {
+            "competition_id": "COMP-2025-02",
+            "title": "Международный чемпионат «Квантовый щит»",
+            "discipline": "security",
+            "level": "international",
+            "kind": "championship",
+            "format": "team",
+            "city": "Ереван",
+            "date_start": "2025-05-17",
+            "date_end": "2025-05-18",
+            "participants_total": 64
+          },
+          "place": 13,
+          "team_name": "Глубокий Поиск",
+          "team_role": "backend",
+          "protocol_url": "https://fsp.example/protocols/comp-2025-02/res-2024-00329-5"
+        }
+      ]
+    },
+    {
+      "fsp_id": "FSP-2022-00058",
+      "full_name": "Журавлёва Марина Дмитриевна",
+      "birth_date": "2000-08-21",
+      "region": "Пермский край",
+      "city": "Пермь",
+      "ranks": [
+        {
+          "rank": "second",
+          "discipline": "security",
+          "assigned_at": "2024-10-05",
+          "order_no": "ORD-2024-8000"
+        }
+      ],
+      "results": [
+        {
+          "result_id": "RES-2022-00058-1",
+          "competition": {
+            "competition_id": "COMP-2024-04",
+            "title": "Чемпионат по защите информации «Нулевой день»",
+            "discipline": "security",
+            "level": "national",
+            "kind": "championship",
+            "format": "team",
+            "city": "Санкт-Петербург",
+            "date_start": "2024-07-20",
+            "date_end": "2024-07-21",
+            "participants_total": 71
+          },
+          "place": 16,
+          "team_name": "Сборка Мусора",
+          "team_role": "frontend",
+          "protocol_url": "https://fsp.example/protocols/comp-2024-04/res-2022-00058-1"
+        }
+      ]
+    },
+    {
+      "fsp_id": "FSP-2023-00013",
+      "full_name": "Лазарев Артём Николаевич",
+      "birth_date": "1999-11-11",
+      "region": "Томская область",
+      "city": "Томск",
+      "ranks": [
+        {
+          "rank": "first",
+          "discipline": "security",
+          "assigned_at": "2023-08-26",
+          "order_no": "ORD-2023-4472"
+        }
+      ],
+      "results": [
+        {
+          "result_id": "RES-2023-00013-1",
+          "competition": {
+            "competition_id": "COMP-2023-04",
+            "title": "Кубок защиты «Красная нить»",
+            "discipline": "security",
+            "level": "regional",
+            "kind": "cup",
+            "format": "team",
+            "city": "Тула",
+            "date_start": "2023-06-10",
+            "date_end": "2023-06-11",
+            "participants_total": 44
+          },
+          "place": 2,
+          "team_name": "Холодный Старт",
+          "team_role": "backend",
+          "protocol_url": "https://fsp.example/protocols/comp-2023-04/res-2023-00013-1"
+        },
+        {
+          "result_id": "RES-2023-00013-2",
+          "competition": {
+            "competition_id": "COMP-2024-04",
+            "title": "Чемпионат по защите информации «Нулевой день»",
+            "discipline": "security",
+            "level": "national",
+            "kind": "championship",
+            "format": "team",
+            "city": "Санкт-Петербург",
+            "date_start": "2024-07-20",
+            "date_end": "2024-07-21",
+            "participants_total": 71
+          },
+          "place": 35,
+          "team_name": "Кофе и Код",
+          "team_role": "backend",
+          "protocol_url": "https://fsp.example/protocols/comp-2024-04/res-2023-00013-2"
+        }
+      ]
+    },
+    {
+      "fsp_id": "FSP-2024-00381",
+      "full_name": "Фролова Софья Дмитриевна",
+      "birth_date": "2000-12-19",
+      "region": "Самарская область",
+      "city": "Самара",
+      "ranks": [
+        {
+          "rank": "kms",
+          "discipline": "algorithmic",
+          "assigned_at": "2023-08-18",
+          "order_no": "ORD-2023-7957"
+        }
+      ],
+      "results": [
+        {
+          "result_id": "RES-2024-00381-1",
+          "competition": {
+            "competition_id": "COMP-2023-02",
+            "title": "Первенство Поволжья по алгоритмам",
+            "discipline": "algorithmic",
+            "level": "regional",
+            "kind": "junior_championship",
+            "format": "individual",
+            "city": "Самара",
+            "date_start": "2023-04-08",
+            "date_end": "2023-04-09",
+            "participants_total": 148
+          },
+          "place": 8,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2023-02/res-2024-00381-1"
+        },
+        {
+          "result_id": "RES-2024-00381-2",
+          "competition": {
+            "competition_id": "COMP-2024-01",
+            "title": "Соревнования БАС «Тихий вектор»",
+            "discipline": "uav",
+            "level": "regional",
+            "kind": "festival",
+            "format": "team",
+            "city": "Калуга",
+            "date_start": "2024-03-16",
+            "date_end": "2024-03-17",
+            "participants_total": 29
+          },
+          "place": 4,
+          "team_name": "Кофе и Код",
+          "team_role": "member",
+          "protocol_url": "https://fsp.example/protocols/comp-2024-01/res-2024-00381-2"
+        },
+        {
+          "result_id": "RES-2024-00381-3",
+          "competition": {
+            "competition_id": "COMP-2024-02",
+            "title": "Всероссийская олимпиада по алгоритмам «Кремний»",
+            "discipline": "algorithmic",
+            "level": "national",
+            "kind": "championship",
+            "format": "individual",
+            "city": "Москва",
+            "date_start": "2024-04-27",
+            "date_end": "2024-04-28",
+            "participants_total": 412
+          },
+          "place": 5,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2024-02/res-2024-00381-3"
+        },
+        {
+          "result_id": "RES-2024-00381-4",
+          "competition": {
+            "competition_id": "COMP-2025-01",
+            "title": "Международный кубок «Меридиан-Код»",
+            "discipline": "algorithmic",
+            "level": "international",
+            "kind": "cup",
+            "format": "individual",
+            "city": "Астана",
+            "date_start": "2025-03-22",
+            "date_end": "2025-03-23",
+            "participants_total": 530
+          },
+          "place": 15,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2025-01/res-2024-00381-4"
+        }
+      ]
+    },
+    {
+      "fsp_id": "FSP-2025-00142",
+      "full_name": "Сорокина Софья Романовна",
+      "birth_date": "2000-09-28",
+      "region": "Свердловская область",
+      "city": "Екатеринбург",
+      "ranks": [
+        {
+          "rank": "ms",
+          "discipline": "algorithmic",
+          "assigned_at": "2023-10-21",
+          "order_no": "ORD-2023-6372"
+        }
+      ],
+      "results": [
+        {
+          "result_id": "RES-2025-00142-1",
+          "competition": {
+            "competition_id": "COMP-2023-05",
+            "title": "Чемпионат Сибири по алгоритмам",
+            "discipline": "algorithmic",
+            "level": "district",
+            "kind": "championship",
+            "format": "individual",
+            "city": "Новосибирск",
+            "date_start": "2023-09-23",
+            "date_end": "2023-09-24",
+            "participants_total": 215
+          },
+          "place": 35,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2023-05/res-2025-00142-1"
+        },
+        {
+          "result_id": "RES-2025-00142-2",
+          "competition": {
+            "competition_id": "COMP-2024-06",
+            "title": "Кубок беспилотных систем «Верхний ярус»",
+            "discipline": "uav",
+            "level": "national",
+            "kind": "cup",
+            "format": "team",
+            "city": "Краснодар",
+            "date_start": "2024-10-12",
+            "date_end": "2024-10-13",
+            "participants_total": 33
+          },
+          "place": 32,
+          "team_name": "Чистый Коммит",
+          "team_role": "captain",
+          "protocol_url": "https://fsp.example/protocols/comp-2024-06/res-2025-00142-2"
+        }
+      ]
+    },
+    {
+      "fsp_id": "FSP-2023-00127",
+      "full_name": "Рябова Ирина Борисовна",
+      "birth_date": "2006-09-20",
+      "region": "Республика Башкортостан",
+      "city": "Уфа",
+      "ranks": [
+        {
+          "rank": "first",
+          "discipline": "algorithmic",
+          "assigned_at": "2023-06-21",
+          "order_no": "ORD-2023-2705"
+        }
+      ],
+      "results": [
+        {
+          "result_id": "RES-2023-00127-1",
+          "competition": {
+            "competition_id": "COMP-2023-01",
+            "title": "Открытый кубок «Лисья нора»",
+            "discipline": "algorithmic",
+            "level": "municipal",
+            "kind": "cup",
+            "format": "individual",
+            "city": "Ижевск",
+            "date_start": "2023-02-18",
+            "date_end": "2023-02-18",
+            "participants_total": 96
+          },
+          "place": 2,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2023-01/res-2023-00127-1"
+        },
+        {
+          "result_id": "RES-2023-00127-2",
+          "competition": {
+            "competition_id": "COMP-2023-07",
+            "title": "Кубок робототехники «Стальной жук»",
+            "discipline": "robotics",
+            "level": "district",
+            "kind": "cup",
+            "format": "team",
+            "city": "Челябинск",
+            "date_start": "2023-11-18",
+            "date_end": "2023-11-19",
+            "participants_total": 37
+          },
+          "place": 28,
+          "team_name": "Глубокий Поиск",
+          "team_role": "member",
+          "protocol_url": "https://fsp.example/protocols/comp-2023-07/res-2023-00127-2"
+        },
+        {
+          "result_id": "RES-2023-00127-3",
+          "competition": {
+            "competition_id": "COMP-2024-01",
+            "title": "Соревнования БАС «Тихий вектор»",
+            "discipline": "uav",
+            "level": "regional",
+            "kind": "festival",
+            "format": "team",
+            "city": "Калуга",
+            "date_start": "2024-03-16",
+            "date_end": "2024-03-17",
+            "participants_total": 29
+          },
+          "place": 7,
+          "team_name": "Кофе и Код",
+          "team_role": "captain",
+          "protocol_url": "https://fsp.example/protocols/comp-2024-01/res-2023-00127-3"
+        },
+        {
+          "result_id": "RES-2023-00127-4",
+          "competition": {
+            "competition_id": "COMP-2025-03",
+            "title": "Хакатон «Кама-Продукт»",
+            "discipline": "product",
+            "level": "regional",
+            "kind": "festival",
+            "format": "team",
+            "city": "Пермь",
+            "date_start": "2025-09-06",
+            "date_end": "2025-09-07",
+            "participants_total": 41
+          },
+          "place": 10,
+          "team_name": "Бинарное Дерево",
+          "team_role": "backend",
+          "protocol_url": "https://fsp.example/protocols/comp-2025-03/res-2023-00127-4"
+        }
+      ]
+    },
+    {
+      "fsp_id": "FSP-2023-00115",
+      "full_name": "Фролов Артём Сергеевич",
+      "birth_date": "1998-05-17",
+      "region": "Свердловская область",
+      "city": "Екатеринбург",
+      "ranks": [],
+      "results": [
+        {
+          "result_id": "RES-2023-00115-1",
+          "competition": {
+            "competition_id": "COMP-2023-01",
+            "title": "Открытый кубок «Лисья нора»",
+            "discipline": "algorithmic",
+            "level": "municipal",
+            "kind": "cup",
+            "format": "individual",
+            "city": "Ижевск",
+            "date_start": "2023-02-18",
+            "date_end": "2023-02-18",
+            "participants_total": 96
+          },
+          "place": 24,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2023-01/res-2023-00115-1"
+        },
+        {
+          "result_id": "RES-2023-00115-2",
+          "competition": {
+            "competition_id": "COMP-2024-02",
+            "title": "Всероссийская олимпиада по алгоритмам «Кремний»",
+            "discipline": "algorithmic",
+            "level": "national",
+            "kind": "championship",
+            "format": "individual",
+            "city": "Москва",
+            "date_start": "2024-04-27",
+            "date_end": "2024-04-28",
+            "participants_total": 412
+          },
+          "place": 40,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2024-02/res-2023-00115-2"
+        }
+      ]
+    },
+    {
+      "fsp_id": "FSP-2025-00072",
+      "full_name": "Исаев Кирилл Павлович",
+      "birth_date": "1999-02-11",
+      "region": "Санкт-Петербург",
+      "city": "Санкт-Петербург",
+      "ranks": [],
+      "results": [
+        {
+          "result_id": "RES-2025-00072-1",
+          "competition": {
+            "competition_id": "COMP-2023-06",
+            "title": "Окружной хакатон «Волга-Продукт»",
+            "discipline": "product",
+            "level": "district",
+            "kind": "championship",
+            "format": "team",
+            "city": "Нижний Новгород",
+            "date_start": "2023-10-14",
+            "date_end": "2023-10-15",
+            "participants_total": 58
+          },
+          "place": 3,
+          "team_name": "Мёртвый Код",
+          "team_role": "captain",
+          "protocol_url": "https://fsp.example/protocols/comp-2023-06/res-2025-00072-1"
+        },
+        {
+          "result_id": "RES-2025-00072-2",
+          "competition": {
+            "competition_id": "COMP-2024-04",
+            "title": "Чемпионат по защите информации «Нулевой день»",
+            "discipline": "security",
+            "level": "national",
+            "kind": "championship",
+            "format": "team",
+            "city": "Санкт-Петербург",
+            "date_start": "2024-07-20",
+            "date_end": "2024-07-21",
+            "participants_total": 71
+          },
+          "place": 1,
+          "team_name": "Сборка Мусора",
+          "team_role": "captain",
+          "protocol_url": "https://fsp.example/protocols/comp-2024-04/res-2025-00072-2"
+        },
+        {
+          "result_id": "RES-2025-00072-3",
+          "competition": {
+            "competition_id": "COMP-2024-05",
+            "title": "Всероссийские соревнования «Сервопривод»",
+            "discipline": "robotics",
+            "level": "national",
+            "kind": "championship",
+            "format": "team",
+            "city": "Тверь",
+            "date_start": "2024-09-14",
+            "date_end": "2024-09-15",
+            "participants_total": 48
+          },
+          "place": 3,
+          "team_name": "Тихий Рантайм",
+          "team_role": "ml",
+          "protocol_url": "https://fsp.example/protocols/comp-2024-05/res-2025-00072-3"
+        }
+      ]
+    },
+    {
+      "fsp_id": "FSP-2023-00379",
+      "full_name": "Крылов Олег Борисович",
+      "birth_date": "2002-07-15",
+      "region": "Воронежская область",
+      "city": "Воронеж",
+      "ranks": [],
+      "results": [
+        {
+          "result_id": "RES-2023-00379-1",
+          "competition": {
+            "competition_id": "COMP-2023-02",
+            "title": "Первенство Поволжья по алгоритмам",
+            "discipline": "algorithmic",
+            "level": "regional",
+            "kind": "junior_championship",
+            "format": "individual",
+            "city": "Самара",
+            "date_start": "2023-04-08",
+            "date_end": "2023-04-09",
+            "participants_total": 148
+          },
+          "place": 12,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2023-02/res-2023-00379-1"
+        },
+        {
+          "result_id": "RES-2023-00379-2",
+          "competition": {
+            "competition_id": "COMP-2023-03",
+            "title": "Хакатон «Прототип-Урал»",
+            "discipline": "product",
+            "level": "regional",
+            "kind": "festival",
+            "format": "team",
+            "city": "Екатеринбург",
+            "date_start": "2023-05-20",
+            "date_end": "2023-05-21",
+            "participants_total": 62
+          },
+          "place": 31,
+          "team_name": "Стек Вызовов",
+          "team_role": "captain",
+          "protocol_url": "https://fsp.example/protocols/comp-2023-03/res-2023-00379-2"
+        },
+        {
+          "result_id": "RES-2023-00379-3",
+          "competition": {
+            "competition_id": "COMP-2023-07",
+            "title": "Кубок робототехники «Стальной жук»",
+            "discipline": "robotics",
+            "level": "district",
+            "kind": "cup",
+            "format": "team",
+            "city": "Челябинск",
+            "date_start": "2023-11-18",
+            "date_end": "2023-11-19",
+            "participants_total": 37
+          },
+          "place": 1,
+          "team_name": "Бинарное Дерево",
+          "team_role": "frontend",
+          "protocol_url": "https://fsp.example/protocols/comp-2023-07/res-2023-00379-3"
+        },
+        {
+          "result_id": "RES-2023-00379-4",
+          "competition": {
+            "competition_id": "COMP-2024-02",
+            "title": "Всероссийская олимпиада по алгоритмам «Кремний»",
+            "discipline": "algorithmic",
+            "level": "national",
+            "kind": "championship",
+            "format": "individual",
+            "city": "Москва",
+            "date_start": "2024-04-27",
+            "date_end": "2024-04-28",
+            "participants_total": 412
+          },
+          "place": 2,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2024-02/res-2023-00379-4"
+        },
+        {
+          "result_id": "RES-2023-00379-5",
+          "competition": {
+            "competition_id": "COMP-2025-01",
+            "title": "Международный кубок «Меридиан-Код»",
+            "discipline": "algorithmic",
+            "level": "international",
+            "kind": "cup",
+            "format": "individual",
+            "city": "Астана",
+            "date_start": "2025-03-22",
+            "date_end": "2025-03-23",
+            "participants_total": 530
+          },
+          "place": 13,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2025-01/res-2023-00379-5"
+        },
+        {
+          "result_id": "RES-2023-00379-6",
+          "competition": {
+            "competition_id": "COMP-2025-02",
+            "title": "Международный чемпионат «Квантовый щит»",
+            "discipline": "security",
+            "level": "international",
+            "kind": "championship",
+            "format": "team",
+            "city": "Ереван",
+            "date_start": "2025-05-17",
+            "date_end": "2025-05-18",
+            "participants_total": 64
+          },
+          "place": 36,
+          "team_name": "Стек Вызовов",
+          "team_role": "backend",
+          "protocol_url": "https://fsp.example/protocols/comp-2025-02/res-2023-00379-6"
+        }
+      ]
+    },
+    {
+      "fsp_id": "FSP-2022-00053",
+      "full_name": "Кудрявцев Тимур Дмитриевич",
+      "birth_date": "2003-04-28",
+      "region": "Республика Татарстан",
+      "city": "Казань",
+      "ranks": [],
+      "results": [
+        {
+          "result_id": "RES-2022-00053-1",
+          "competition": {
+            "competition_id": "COMP-2023-02",
+            "title": "Первенство Поволжья по алгоритмам",
+            "discipline": "algorithmic",
+            "level": "regional",
+            "kind": "junior_championship",
+            "format": "individual",
+            "city": "Самара",
+            "date_start": "2023-04-08",
+            "date_end": "2023-04-09",
+            "participants_total": 148
+          },
+          "place": 4,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2023-02/res-2022-00053-1"
+        },
+        {
+          "result_id": "RES-2022-00053-2",
+          "competition": {
+            "competition_id": "COMP-2025-03",
+            "title": "Хакатон «Кама-Продукт»",
+            "discipline": "product",
+            "level": "regional",
+            "kind": "festival",
+            "format": "team",
+            "city": "Пермь",
+            "date_start": "2025-09-06",
+            "date_end": "2025-09-07",
+            "participants_total": 41
+          },
+          "place": 1,
+          "team_name": "Холодный Старт",
+          "team_role": "backend",
+          "protocol_url": "https://fsp.example/protocols/comp-2025-03/res-2022-00053-2"
+        }
+      ]
+    },
+    {
+      "fsp_id": "FSP-2024-00348",
+      "full_name": "Беляев Артём Андреевич",
+      "birth_date": "1996-12-11",
+      "region": "Краснодарский край",
+      "city": "Краснодар",
+      "ranks": [],
+      "results": [
+        {
+          "result_id": "RES-2024-00348-1",
+          "competition": {
+            "competition_id": "COMP-2023-05",
+            "title": "Чемпионат Сибири по алгоритмам",
+            "discipline": "algorithmic",
+            "level": "district",
+            "kind": "championship",
+            "format": "individual",
+            "city": "Новосибирск",
+            "date_start": "2023-09-23",
+            "date_end": "2023-09-24",
+            "participants_total": 215
+          },
+          "place": 3,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2023-05/res-2024-00348-1"
+        },
+        {
+          "result_id": "RES-2024-00348-2",
+          "competition": {
+            "competition_id": "COMP-2023-07",
+            "title": "Кубок робототехники «Стальной жук»",
+            "discipline": "robotics",
+            "level": "district",
+            "kind": "cup",
+            "format": "team",
+            "city": "Челябинск",
+            "date_start": "2023-11-18",
+            "date_end": "2023-11-19",
+            "participants_total": 37
+          },
+          "place": 1,
+          "team_name": "Холодный Старт",
+          "team_role": "ml",
+          "protocol_url": "https://fsp.example/protocols/comp-2023-07/res-2024-00348-2"
+        },
+        {
+          "result_id": "RES-2024-00348-3",
+          "competition": {
+            "competition_id": "COMP-2024-04",
+            "title": "Чемпионат по защите информации «Нулевой день»",
+            "discipline": "security",
+            "level": "national",
+            "kind": "championship",
+            "format": "team",
+            "city": "Санкт-Петербург",
+            "date_start": "2024-07-20",
+            "date_end": "2024-07-21",
+            "participants_total": 71
+          },
+          "place": 8,
+          "team_name": "Тихий Рантайм",
+          "team_role": "ml",
+          "protocol_url": "https://fsp.example/protocols/comp-2024-04/res-2024-00348-3"
+        },
+        {
+          "result_id": "RES-2024-00348-4",
+          "competition": {
+            "competition_id": "COMP-2024-05",
+            "title": "Всероссийские соревнования «Сервопривод»",
+            "discipline": "robotics",
+            "level": "national",
+            "kind": "championship",
+            "format": "team",
+            "city": "Тверь",
+            "date_start": "2024-09-14",
+            "date_end": "2024-09-15",
+            "participants_total": 48
+          },
+          "place": 10,
+          "team_name": "Глубокий Поиск",
+          "team_role": "backend",
+          "protocol_url": "https://fsp.example/protocols/comp-2024-05/res-2024-00348-4"
+        },
+        {
+          "result_id": "RES-2024-00348-5",
+          "competition": {
+            "competition_id": "COMP-2024-06",
+            "title": "Кубок беспилотных систем «Верхний ярус»",
+            "discipline": "uav",
+            "level": "national",
+            "kind": "cup",
+            "format": "team",
+            "city": "Краснодар",
+            "date_start": "2024-10-12",
+            "date_end": "2024-10-13",
+            "participants_total": 33
+          },
+          "place": 13,
+          "team_name": "Горячая Замена",
+          "team_role": "captain",
+          "protocol_url": "https://fsp.example/protocols/comp-2024-06/res-2024-00348-5"
+        },
+        {
+          "result_id": "RES-2024-00348-6",
+          "competition": {
+            "competition_id": "COMP-2025-01",
+            "title": "Международный кубок «Меридиан-Код»",
+            "discipline": "algorithmic",
+            "level": "international",
+            "kind": "cup",
+            "format": "individual",
+            "city": "Астана",
+            "date_start": "2025-03-22",
+            "date_end": "2025-03-23",
+            "participants_total": 530
+          },
+          "place": 1,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2025-01/res-2024-00348-6"
+        }
+      ]
+    },
+    {
+      "fsp_id": "FSP-2023-00281",
+      "full_name": "Комаров Никита Сергеевич",
+      "birth_date": "1997-01-15",
+      "region": "Москва",
+      "city": "Москва",
+      "ranks": [],
+      "results": [
+        {
+          "result_id": "RES-2023-00281-1",
+          "competition": {
+            "competition_id": "COMP-2023-03",
+            "title": "Хакатон «Прототип-Урал»",
+            "discipline": "product",
+            "level": "regional",
+            "kind": "festival",
+            "format": "team",
+            "city": "Екатеринбург",
+            "date_start": "2023-05-20",
+            "date_end": "2023-05-21",
+            "participants_total": 62
+          },
+          "place": 2,
+          "team_name": "Горячая Замена",
+          "team_role": "member",
+          "protocol_url": "https://fsp.example/protocols/comp-2023-03/res-2023-00281-1"
+        },
+        {
+          "result_id": "RES-2023-00281-2",
+          "competition": {
+            "competition_id": "COMP-2023-05",
+            "title": "Чемпионат Сибири по алгоритмам",
+            "discipline": "algorithmic",
+            "level": "district",
+            "kind": "championship",
+            "format": "individual",
+            "city": "Новосибирск",
+            "date_start": "2023-09-23",
+            "date_end": "2023-09-24",
+            "participants_total": 215
+          },
+          "place": 3,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2023-05/res-2023-00281-2"
+        },
+        {
+          "result_id": "RES-2023-00281-3",
+          "competition": {
+            "competition_id": "COMP-2024-03",
+            "title": "Всероссийский хакатон «Цифровой горизонт»",
+            "discipline": "product",
+            "level": "national",
+            "kind": "championship",
+            "format": "team",
+            "city": "Казань",
+            "date_start": "2024-06-08",
+            "date_end": "2024-06-10",
+            "participants_total": 96
+          },
+          "place": 39,
+          "team_name": "Тихий Рантайм",
+          "team_role": "frontend",
+          "protocol_url": "https://fsp.example/protocols/comp-2024-03/res-2023-00281-3"
+        },
+        {
+          "result_id": "RES-2023-00281-4",
+          "competition": {
+            "competition_id": "COMP-2025-03",
+            "title": "Хакатон «Кама-Продукт»",
+            "discipline": "product",
+            "level": "regional",
+            "kind": "festival",
+            "format": "team",
+            "city": "Пермь",
+            "date_start": "2025-09-06",
+            "date_end": "2025-09-07",
+            "participants_total": 41
+          },
+          "place": 8,
+          "team_name": "Стек Вызовов",
+          "team_role": "captain",
+          "protocol_url": "https://fsp.example/protocols/comp-2025-03/res-2023-00281-4"
+        }
+      ]
+    },
+    {
+      "fsp_id": "FSP-2022-00045",
+      "full_name": "Исаев Глеб Викторович",
+      "birth_date": "2007-09-05",
+      "region": "Пермский край",
+      "city": "Пермь",
+      "ranks": [],
+      "results": [
+        {
+          "result_id": "RES-2022-00045-1",
+          "competition": {
+            "competition_id": "COMP-2024-04",
+            "title": "Чемпионат по защите информации «Нулевой день»",
+            "discipline": "security",
+            "level": "national",
+            "kind": "championship",
+            "format": "team",
+            "city": "Санкт-Петербург",
+            "date_start": "2024-07-20",
+            "date_end": "2024-07-21",
+            "participants_total": 71
+          },
+          "place": 3,
+          "team_name": "Тихий Рантайм",
+          "team_role": "analyst",
+          "protocol_url": "https://fsp.example/protocols/comp-2024-04/res-2022-00045-1"
+        }
+      ]
+    },
+    {
+      "fsp_id": "FSP-2022-00304",
+      "full_name": "Захарова Анна Николаевна",
+      "birth_date": "1996-06-25",
+      "region": "Новосибирская область",
+      "city": "Новосибирск",
+      "ranks": [
+        {
+          "rank": "second",
+          "discipline": "algorithmic",
+          "assigned_at": "2025-05-16",
+          "order_no": "ORD-2025-7565"
+        }
+      ],
+      "results": [
+        {
+          "result_id": "RES-2022-00304-1",
+          "competition": {
+            "competition_id": "COMP-2023-03",
+            "title": "Хакатон «Прототип-Урал»",
+            "discipline": "product",
+            "level": "regional",
+            "kind": "festival",
+            "format": "team",
+            "city": "Екатеринбург",
+            "date_start": "2023-05-20",
+            "date_end": "2023-05-21",
+            "participants_total": 62
+          },
+          "place": 7,
+          "team_name": "Глубокий Поиск",
+          "team_role": "captain",
+          "protocol_url": "https://fsp.example/protocols/comp-2023-03/res-2022-00304-1"
+        },
+        {
+          "result_id": "RES-2022-00304-2",
+          "competition": {
+            "competition_id": "COMP-2024-01",
+            "title": "Соревнования БАС «Тихий вектор»",
+            "discipline": "uav",
+            "level": "regional",
+            "kind": "festival",
+            "format": "team",
+            "city": "Калуга",
+            "date_start": "2024-03-16",
+            "date_end": "2024-03-17",
+            "participants_total": 29
+          },
+          "place": 2,
+          "team_name": "Горячая Замена",
+          "team_role": "designer",
+          "protocol_url": "https://fsp.example/protocols/comp-2024-01/res-2022-00304-2"
+        },
+        {
+          "result_id": "RES-2022-00304-3",
+          "competition": {
+            "competition_id": "COMP-2025-01",
+            "title": "Международный кубок «Меридиан-Код»",
+            "discipline": "algorithmic",
+            "level": "international",
+            "kind": "cup",
+            "format": "individual",
+            "city": "Астана",
+            "date_start": "2025-03-22",
+            "date_end": "2025-03-23",
+            "participants_total": 530
+          },
+          "place": 3,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2025-01/res-2022-00304-3"
+        }
+      ]
+    },
+    {
+      "fsp_id": "FSP-2025-00218",
+      "full_name": "Фролов Борис Андреевич",
+      "birth_date": "2001-04-22",
+      "region": "Самарская область",
+      "city": "Самара",
+      "ranks": [
+        {
+          "rank": "second",
+          "discipline": "uav",
+          "assigned_at": "2025-02-07",
+          "order_no": "ORD-2025-5364"
+        }
+      ],
+      "results": [
+        {
+          "result_id": "RES-2025-00218-1",
+          "competition": {
+            "competition_id": "COMP-2024-06",
+            "title": "Кубок беспилотных систем «Верхний ярус»",
+            "discipline": "uav",
+            "level": "national",
+            "kind": "cup",
+            "format": "team",
+            "city": "Краснодар",
+            "date_start": "2024-10-12",
+            "date_end": "2024-10-13",
+            "participants_total": 33
+          },
+          "place": 1,
+          "team_name": "Сборка Мусора",
+          "team_role": "designer",
+          "protocol_url": "https://fsp.example/protocols/comp-2024-06/res-2025-00218-1"
+        }
+      ]
+    },
+    {
+      "fsp_id": "FSP-2025-00017",
+      "full_name": "Орлова Ксения Викторовна",
+      "birth_date": "2002-11-28",
+      "region": "Челябинская область",
+      "city": "Челябинск",
+      "ranks": [
+        {
+          "rank": "second",
+          "discipline": "robotics",
+          "assigned_at": "2024-12-30",
+          "order_no": "ORD-2024-6212"
+        }
+      ],
+      "results": [
+        {
+          "result_id": "RES-2025-00017-1",
+          "competition": {
+            "competition_id": "COMP-2023-03",
+            "title": "Хакатон «Прототип-Урал»",
+            "discipline": "product",
+            "level": "regional",
+            "kind": "festival",
+            "format": "team",
+            "city": "Екатеринбург",
+            "date_start": "2023-05-20",
+            "date_end": "2023-05-21",
+            "participants_total": 62
+          },
+          "place": 23,
+          "team_name": "Сборка Мусора",
+          "team_role": "backend",
+          "protocol_url": "https://fsp.example/protocols/comp-2023-03/res-2025-00017-1"
+        },
+        {
+          "result_id": "RES-2025-00017-2",
+          "competition": {
+            "competition_id": "COMP-2023-04",
+            "title": "Кубок защиты «Красная нить»",
+            "discipline": "security",
+            "level": "regional",
+            "kind": "cup",
+            "format": "team",
+            "city": "Тула",
+            "date_start": "2023-06-10",
+            "date_end": "2023-06-11",
+            "participants_total": 44
+          },
+          "place": 10,
+          "team_name": "Тихий Рантайм",
+          "team_role": "backend",
+          "protocol_url": "https://fsp.example/protocols/comp-2023-04/res-2025-00017-2"
+        },
+        {
+          "result_id": "RES-2025-00017-3",
+          "competition": {
+            "competition_id": "COMP-2024-05",
+            "title": "Всероссийские соревнования «Сервопривод»",
+            "discipline": "robotics",
+            "level": "national",
+            "kind": "championship",
+            "format": "team",
+            "city": "Тверь",
+            "date_start": "2024-09-14",
+            "date_end": "2024-09-15",
+            "participants_total": 48
+          },
+          "place": 23,
+          "team_name": "Кофе и Код",
+          "team_role": "member",
+          "protocol_url": "https://fsp.example/protocols/comp-2024-05/res-2025-00017-3"
+        },
+        {
+          "result_id": "RES-2025-00017-4",
+          "competition": {
+            "competition_id": "COMP-2025-01",
+            "title": "Международный кубок «Меридиан-Код»",
+            "discipline": "algorithmic",
+            "level": "international",
+            "kind": "cup",
+            "format": "individual",
+            "city": "Астана",
+            "date_start": "2025-03-22",
+            "date_end": "2025-03-23",
+            "participants_total": 530
+          },
+          "place": 2,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2025-01/res-2025-00017-4"
+        },
+        {
+          "result_id": "RES-2025-00017-5",
+          "competition": {
+            "competition_id": "COMP-2025-03",
+            "title": "Хакатон «Кама-Продукт»",
+            "discipline": "product",
+            "level": "regional",
+            "kind": "festival",
+            "format": "team",
+            "city": "Пермь",
+            "date_start": "2025-09-06",
+            "date_end": "2025-09-07",
+            "participants_total": 41
+          },
+          "place": 18,
+          "team_name": "Бинарное Дерево",
+          "team_role": "backend",
+          "protocol_url": "https://fsp.example/protocols/comp-2025-03/res-2025-00017-5"
+        }
+      ]
+    },
+    {
+      "fsp_id": "FSP-2022-00016",
+      "full_name": "Крылов Лев Евгеньевич",
+      "birth_date": "1996-02-20",
+      "region": "Ростовская область",
+      "city": "Ростов-на-Дону",
+      "ranks": [
+        {
+          "rank": "second",
+          "discipline": "algorithmic",
+          "assigned_at": "2023-12-17",
+          "order_no": "ORD-2023-1342"
+        }
+      ],
+      "results": [
+        {
+          "result_id": "RES-2022-00016-1",
+          "competition": {
+            "competition_id": "COMP-2023-05",
+            "title": "Чемпионат Сибири по алгоритмам",
+            "discipline": "algorithmic",
+            "level": "district",
+            "kind": "championship",
+            "format": "individual",
+            "city": "Новосибирск",
+            "date_start": "2023-09-23",
+            "date_end": "2023-09-24",
+            "participants_total": 215
+          },
+          "place": 9,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2023-05/res-2022-00016-1"
+        },
+        {
+          "result_id": "RES-2022-00016-2",
+          "competition": {
+            "competition_id": "COMP-2024-02",
+            "title": "Всероссийская олимпиада по алгоритмам «Кремний»",
+            "discipline": "algorithmic",
+            "level": "national",
+            "kind": "championship",
+            "format": "individual",
+            "city": "Москва",
+            "date_start": "2024-04-27",
+            "date_end": "2024-04-28",
+            "participants_total": 412
+          },
+          "place": 24,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2024-02/res-2022-00016-2"
+        },
+        {
+          "result_id": "RES-2022-00016-3",
+          "competition": {
+            "competition_id": "COMP-2024-05",
+            "title": "Всероссийские соревнования «Сервопривод»",
+            "discipline": "robotics",
+            "level": "national",
+            "kind": "championship",
+            "format": "team",
+            "city": "Тверь",
+            "date_start": "2024-09-14",
+            "date_end": "2024-09-15",
+            "participants_total": 48
+          },
+          "place": 8,
+          "team_name": "Стек Вызовов",
+          "team_role": "frontend",
+          "protocol_url": "https://fsp.example/protocols/comp-2024-05/res-2022-00016-3"
+        }
+      ]
+    },
+    {
+      "fsp_id": "FSP-2024-00048",
+      "full_name": "Гусева Ксения Борисовна",
+      "birth_date": "2005-06-22",
+      "region": "Краснодарский край",
+      "city": "Краснодар",
+      "ranks": [
+        {
+          "rank": "first",
+          "discipline": "product",
+          "assigned_at": "2024-07-13",
+          "order_no": "ORD-2024-5734"
+        }
+      ],
+      "results": [
+        {
+          "result_id": "RES-2024-00048-1",
+          "competition": {
+            "competition_id": "COMP-2023-02",
+            "title": "Первенство Поволжья по алгоритмам",
+            "discipline": "algorithmic",
+            "level": "regional",
+            "kind": "junior_championship",
+            "format": "individual",
+            "city": "Самара",
+            "date_start": "2023-04-08",
+            "date_end": "2023-04-09",
+            "participants_total": 148
+          },
+          "place": 34,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2023-02/res-2024-00048-1"
+        },
+        {
+          "result_id": "RES-2024-00048-2",
+          "competition": {
+            "competition_id": "COMP-2024-01",
+            "title": "Соревнования БАС «Тихий вектор»",
+            "discipline": "uav",
+            "level": "regional",
+            "kind": "festival",
+            "format": "team",
+            "city": "Калуга",
+            "date_start": "2024-03-16",
+            "date_end": "2024-03-17",
+            "participants_total": 29
+          },
+          "place": 27,
+          "team_name": "Бинарное Дерево",
+          "team_role": "analyst",
+          "protocol_url": "https://fsp.example/protocols/comp-2024-01/res-2024-00048-2"
+        },
+        {
+          "result_id": "RES-2024-00048-3",
+          "competition": {
+            "competition_id": "COMP-2024-03",
+            "title": "Всероссийский хакатон «Цифровой горизонт»",
+            "discipline": "product",
+            "level": "national",
+            "kind": "championship",
+            "format": "team",
+            "city": "Казань",
+            "date_start": "2024-06-08",
+            "date_end": "2024-06-10",
+            "participants_total": 96
+          },
+          "place": 9,
+          "team_name": "Бинарное Дерево",
+          "team_role": "ml",
+          "protocol_url": "https://fsp.example/protocols/comp-2024-03/res-2024-00048-3"
+        }
+      ]
+    },
+    {
+      "fsp_id": "FSP-2024-00112",
+      "full_name": "Ковалёв Денис Дмитриевич",
+      "birth_date": "2005-11-11",
+      "region": "Республика Татарстан",
+      "city": "Казань",
+      "ranks": [
+        {
+          "rank": "third",
+          "discipline": "algorithmic",
+          "assigned_at": "2025-04-22",
+          "order_no": "ORD-2025-0509"
+        }
+      ],
+      "results": [
+        {
+          "result_id": "RES-2024-00112-1",
+          "competition": {
+            "competition_id": "COMP-2023-03",
+            "title": "Хакатон «Прототип-Урал»",
+            "discipline": "product",
+            "level": "regional",
+            "kind": "festival",
+            "format": "team",
+            "city": "Екатеринбург",
+            "date_start": "2023-05-20",
+            "date_end": "2023-05-21",
+            "participants_total": 62
+          },
+          "place": 6,
+          "team_name": "Стек Вызовов",
+          "team_role": "member",
+          "protocol_url": "https://fsp.example/protocols/comp-2023-03/res-2024-00112-1"
+        },
+        {
+          "result_id": "RES-2024-00112-2",
+          "competition": {
+            "competition_id": "COMP-2023-06",
+            "title": "Окружной хакатон «Волга-Продукт»",
+            "discipline": "product",
+            "level": "district",
+            "kind": "championship",
+            "format": "team",
+            "city": "Нижний Новгород",
+            "date_start": "2023-10-14",
+            "date_end": "2023-10-15",
+            "participants_total": 58
+          },
+          "place": 32,
+          "team_name": "Бинарное Дерево",
+          "team_role": "backend",
+          "protocol_url": "https://fsp.example/protocols/comp-2023-06/res-2024-00112-2"
+        },
+        {
+          "result_id": "RES-2024-00112-3",
+          "competition": {
+            "competition_id": "COMP-2024-01",
+            "title": "Соревнования БАС «Тихий вектор»",
+            "discipline": "uav",
+            "level": "regional",
+            "kind": "festival",
+            "format": "team",
+            "city": "Калуга",
+            "date_start": "2024-03-16",
+            "date_end": "2024-03-17",
+            "participants_total": 29
+          },
+          "place": 13,
+          "team_name": "Бинарное Дерево",
+          "team_role": "frontend",
+          "protocol_url": "https://fsp.example/protocols/comp-2024-01/res-2024-00112-3"
+        },
+        {
+          "result_id": "RES-2024-00112-4",
+          "competition": {
+            "competition_id": "COMP-2024-03",
+            "title": "Всероссийский хакатон «Цифровой горизонт»",
+            "discipline": "product",
+            "level": "national",
+            "kind": "championship",
+            "format": "team",
+            "city": "Казань",
+            "date_start": "2024-06-08",
+            "date_end": "2024-06-10",
+            "participants_total": 96
+          },
+          "place": 7,
+          "team_name": "Мёртвый Код",
+          "team_role": "backend",
+          "protocol_url": "https://fsp.example/protocols/comp-2024-03/res-2024-00112-4"
+        },
+        {
+          "result_id": "RES-2024-00112-5",
+          "competition": {
+            "competition_id": "COMP-2025-01",
+            "title": "Международный кубок «Меридиан-Код»",
+            "discipline": "algorithmic",
+            "level": "international",
+            "kind": "cup",
+            "format": "individual",
+            "city": "Астана",
+            "date_start": "2025-03-22",
+            "date_end": "2025-03-23",
+            "participants_total": 530
+          },
+          "place": 10,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2025-01/res-2024-00112-5"
+        }
+      ]
+    },
+    {
+      "fsp_id": "FSP-2022-00121",
+      "full_name": "Лазарева Татьяна Николаевна",
+      "birth_date": "1999-12-23",
+      "region": "Приморский край",
+      "city": "Владивосток",
+      "ranks": [],
+      "results": [
+        {
+          "result_id": "RES-2022-00121-1",
+          "competition": {
+            "competition_id": "COMP-2023-01",
+            "title": "Открытый кубок «Лисья нора»",
+            "discipline": "algorithmic",
+            "level": "municipal",
+            "kind": "cup",
+            "format": "individual",
+            "city": "Ижевск",
+            "date_start": "2023-02-18",
+            "date_end": "2023-02-18",
+            "participants_total": 96
+          },
+          "place": 7,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2023-01/res-2022-00121-1"
+        }
+      ]
+    },
+    {
+      "fsp_id": "FSP-2025-00260",
+      "full_name": "Тихонова Алиса Викторовна",
+      "birth_date": "2004-08-02",
+      "region": "Нижегородская область",
+      "city": "Нижний Новгород",
+      "ranks": [
+        {
+          "rank": "third",
+          "discipline": "algorithmic",
+          "assigned_at": "2025-05-21",
+          "order_no": "ORD-2025-3909"
+        }
+      ],
+      "results": [
+        {
+          "result_id": "RES-2025-00260-1",
+          "competition": {
+            "competition_id": "COMP-2025-01",
+            "title": "Международный кубок «Меридиан-Код»",
+            "discipline": "algorithmic",
+            "level": "international",
+            "kind": "cup",
+            "format": "individual",
+            "city": "Астана",
+            "date_start": "2025-03-22",
+            "date_end": "2025-03-23",
+            "participants_total": 530
+          },
+          "place": 10,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2025-01/res-2025-00260-1"
+        }
+      ]
+    },
+    {
+      "fsp_id": "FSP-2025-00310",
+      "full_name": "Дмитриева Марина Степановна",
+      "birth_date": "2004-08-06",
+      "region": "Ростовская область",
+      "city": "Ростов-на-Дону",
+      "ranks": [
+        {
+          "rank": "first",
+          "discipline": "algorithmic",
+          "assigned_at": "2024-06-16",
+          "order_no": "ORD-2024-9241"
+        }
+      ],
+      "results": [
+        {
+          "result_id": "RES-2025-00310-1",
+          "competition": {
+            "competition_id": "COMP-2024-02",
+            "title": "Всероссийская олимпиада по алгоритмам «Кремний»",
+            "discipline": "algorithmic",
+            "level": "national",
+            "kind": "championship",
+            "format": "individual",
+            "city": "Москва",
+            "date_start": "2024-04-27",
+            "date_end": "2024-04-28",
+            "participants_total": 412
+          },
+          "place": 3,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2024-02/res-2025-00310-1"
+        },
+        {
+          "result_id": "RES-2025-00310-2",
+          "competition": {
+            "competition_id": "COMP-2024-06",
+            "title": "Кубок беспилотных систем «Верхний ярус»",
+            "discipline": "uav",
+            "level": "national",
+            "kind": "cup",
+            "format": "team",
+            "city": "Краснодар",
+            "date_start": "2024-10-12",
+            "date_end": "2024-10-13",
+            "participants_total": 33
+          },
+          "place": 26,
+          "team_name": "Белый Список",
+          "team_role": "backend",
+          "protocol_url": "https://fsp.example/protocols/comp-2024-06/res-2025-00310-2"
+        }
+      ]
+    },
+    {
+      "fsp_id": "FSP-2023-00014",
+      "full_name": "Фролов Данил Дмитриевич",
+      "birth_date": "2007-04-03",
+      "region": "Свердловская область",
+      "city": "Екатеринбург",
+      "ranks": [],
+      "results": [
+        {
+          "result_id": "RES-2023-00014-1",
+          "competition": {
+            "competition_id": "COMP-2023-01",
+            "title": "Открытый кубок «Лисья нора»",
+            "discipline": "algorithmic",
+            "level": "municipal",
+            "kind": "cup",
+            "format": "individual",
+            "city": "Ижевск",
+            "date_start": "2023-02-18",
+            "date_end": "2023-02-18",
+            "participants_total": 96
+          },
+          "place": 10,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2023-01/res-2023-00014-1"
+        },
+        {
+          "result_id": "RES-2023-00014-2",
+          "competition": {
+            "competition_id": "COMP-2023-03",
+            "title": "Хакатон «Прототип-Урал»",
+            "discipline": "product",
+            "level": "regional",
+            "kind": "festival",
+            "format": "team",
+            "city": "Екатеринбург",
+            "date_start": "2023-05-20",
+            "date_end": "2023-05-21",
+            "participants_total": 62
+          },
+          "place": 7,
+          "team_name": "Кофе и Код",
+          "team_role": "backend",
+          "protocol_url": "https://fsp.example/protocols/comp-2023-03/res-2023-00014-2"
+        },
+        {
+          "result_id": "RES-2023-00014-3",
+          "competition": {
+            "competition_id": "COMP-2023-05",
+            "title": "Чемпионат Сибири по алгоритмам",
+            "discipline": "algorithmic",
+            "level": "district",
+            "kind": "championship",
+            "format": "individual",
+            "city": "Новосибирск",
+            "date_start": "2023-09-23",
+            "date_end": "2023-09-24",
+            "participants_total": 215
+          },
+          "place": 9,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2023-05/res-2023-00014-3"
+        },
+        {
+          "result_id": "RES-2023-00014-4",
+          "competition": {
+            "competition_id": "COMP-2023-06",
+            "title": "Окружной хакатон «Волга-Продукт»",
+            "discipline": "product",
+            "level": "district",
+            "kind": "championship",
+            "format": "team",
+            "city": "Нижний Новгород",
+            "date_start": "2023-10-14",
+            "date_end": "2023-10-15",
+            "participants_total": 58
+          },
+          "place": 3,
+          "team_name": "Холодный Старт",
+          "team_role": "frontend",
+          "protocol_url": "https://fsp.example/protocols/comp-2023-06/res-2023-00014-4"
+        },
+        {
+          "result_id": "RES-2023-00014-5",
+          "competition": {
+            "competition_id": "COMP-2023-07",
+            "title": "Кубок робототехники «Стальной жук»",
+            "discipline": "robotics",
+            "level": "district",
+            "kind": "cup",
+            "format": "team",
+            "city": "Челябинск",
+            "date_start": "2023-11-18",
+            "date_end": "2023-11-19",
+            "participants_total": 37
+          },
+          "place": 20,
+          "team_name": "Холодный Старт",
+          "team_role": "member",
+          "protocol_url": "https://fsp.example/protocols/comp-2023-07/res-2023-00014-5"
+        },
+        {
+          "result_id": "RES-2023-00014-6",
+          "competition": {
+            "competition_id": "COMP-2024-02",
+            "title": "Всероссийская олимпиада по алгоритмам «Кремний»",
+            "discipline": "algorithmic",
+            "level": "national",
+            "kind": "championship",
+            "format": "individual",
+            "city": "Москва",
+            "date_start": "2024-04-27",
+            "date_end": "2024-04-28",
+            "participants_total": 412
+          },
+          "place": 6,
+          "team_name": null,
+          "team_role": null,
+          "protocol_url": "https://fsp.example/protocols/comp-2024-02/res-2023-00014-6"
+        }
+      ]
+    }
+  ]
+}
