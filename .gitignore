@@ -22,3 +22,6 @@ dist/
 
 # Build orchestration (task files, reports, logs)
 .build/
+
+# Presentation build artifact
+docs/presentation/.deck.rendered.html

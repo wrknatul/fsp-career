@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>ФСП.Карьера — презентация решения</title>
+<style>
+  /* Fonts ship next to the deck so the PDF renders the same everywhere. */
+  @font-face { font-family: Inter; font-weight: 400; src: url(fonts/inter-cyrillic-400-normal.woff2) format('woff2'); unicode-range: U+0400-04FF, U+2116; }
+  @font-face { font-family: Inter; font-weight: 400; src: url(fonts/inter-latin-400-normal.woff2) format('woff2'); unicode-range: U+0000-00FF, U+2010-2027, U+2190-2193; }
+  @font-face { font-family: Inter; font-weight: 400; src: url(fonts/inter-latin-ext-400-normal.woff2) format('woff2'); unicode-range: U+0100-024F, U+20A0-20BF; }
+  @font-face { font-family: Inter; font-weight: 600; src: url(fonts/inter-cyrillic-600-normal.woff2) format('woff2'); unicode-range: U+0400-04FF, U+2116; }
+  @font-face { font-family: Inter; font-weight: 600; src: url(fonts/inter-latin-600-normal.woff2) format('woff2'); unicode-range: U+0000-00FF, U+2010-2027, U+2190-2193; }
+  @font-face { font-family: Inter; font-weight: 600; src: url(fonts/inter-latin-ext-600-normal.woff2) format('woff2'); unicode-range: U+0100-024F, U+20A0-20BF; }
+  @font-face { font-family: 'JetBrains Mono'; font-weight: 500; src: url(fonts/jetbrains-mono-cyrillic-500-normal.woff2) format('woff2'); unicode-range: U+0400-04FF; }
+  @font-face { font-family: 'JetBrains Mono'; font-weight: 500; src: url(fonts/jetbrains-mono-latin-500-normal.woff2) format('woff2'); unicode-range: U+0000-00FF, U+2010-2027; }
+  @font-face { font-family: 'JetBrains Mono'; font-weight: 500; src: url(fonts/jetbrains-mono-latin-ext-500-normal.woff2) format('woff2'); unicode-range: U+0100-024F, U+20A0-20BF; }
+  @font-face { font-family: 'JetBrains Mono'; font-weight: 700; src: url(fonts/jetbrains-mono-cyrillic-700-normal.woff2) format('woff2'); unicode-range: U+0400-04FF; }
+  @font-face { font-family: 'JetBrains Mono'; font-weight: 700; src: url(fonts/jetbrains-mono-latin-700-normal.woff2) format('woff2'); unicode-range: U+0000-00FF, U+2010-2027; }
+
+  :root {
+    --primary: #402FFF; --ink: #1B1C21; --ink-2: #202129; --bg: #F4F4F6; --line: #E4E4EA;
+    --muted: #6B6C73; --ok: #1FA971; --soft: #ECEAFF;
+  }
+  @page { size: 1280px 720px; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #000; }
+  body { font-family: Inter, system-ui, sans-serif; color: var(--ink); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .slide { width: 1280px; height: 720px; padding: 56px 64px 48px; background: var(--bg); position: relative; overflow: hidden; page-break-after: always; break-after: page; display: flex; flex-direction: column; }
+  .slide:last-child { page-break-after: auto; break-after: auto; }
+  .dark { background: var(--ink); color: #fff; }
+  .mono { font-family: 'JetBrains Mono', ui-monospace, monospace; }
+  .eyebrow { font-family: 'JetBrains Mono', monospace; font-weight: 500; font-size: 13px; letter-spacing: .16em; text-transform: uppercase; color: var(--primary); margin: 0 0 14px; }
+  .dark .eyebrow { color: #9A8FFF; }
+  h1 { font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 58px; line-height: 1.08; letter-spacing: -.02em; margin: 0; }
+  h2 { font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 34px; line-height: 1.15; letter-spacing: -.01em; margin: 0 0 22px; max-width: 1000px; }
+  p { font-size: 18px; line-height: 1.5; margin: 0; }
+  .lead { font-size: 21px; line-height: 1.5; color: #C9CAD3; max-width: 760px; }
+  .muted { color: var(--muted); }
+  .grid { display: grid; gap: 24px; flex: 1; min-height: 0; }
+  .g-2 { grid-template-columns: 1fr 1fr; }
+  .g-text-shot { grid-template-columns: 400px 1fr; align-items: start; }
+  .card { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 22px 24px; }
+  .card h3 { font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 19px; margin: 0 0 10px; }
+  .card p, li { font-size: 16.5px; line-height: 1.45; }
+  ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 11px; }
+  li { padding-left: 22px; position: relative; }
+  li::before { content: ''; position: absolute; left: 0; top: 9px; width: 8px; height: 8px; border-radius: 2px; background: var(--primary); }
+  .shot { border-radius: 14px; border: 1px solid var(--line); box-shadow: 0 18px 44px rgba(27, 28, 33, .14); overflow: hidden; background: #fff; align-self: start; }
+  .shot img { display: block; width: 100%; }
+  .num { font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 44px; color: var(--primary); line-height: 1; }
+  .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+  .kpi { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; }
+  .kpi span { display: block; font-size: 14.5px; color: var(--muted); margin-top: 8px; line-height: 1.35; }
+  table { border-collapse: collapse; width: 100%; font-size: 16.5px; }
+  th { text-align: left; font-family: 'JetBrains Mono', monospace; font-weight: 500; font-size: 12.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); padding: 0 12px 10px 0; }
+  td { padding: 11px 12px 11px 0; border-top: 1px solid var(--line); vertical-align: top; line-height: 1.4; }
+  td.w { font-family: 'JetBrains Mono', monospace; font-weight: 700; color: var(--primary); white-space: nowrap; }
+  .badge { display: inline-block; font-size: 13px; font-weight: 600; border-radius: 999px; padding: 3px 11px; white-space: nowrap; }
+  .b-fsp { background: var(--primary); color: #fff; } .b-test { background: #E3F6EE; color: #13744E; }
+  .b-cv { background: #E9E9EE; color: #44454D; } .b-self { border: 1px solid #B9BAC4; color: #44454D; }
+  .flow { display: grid; grid-template-columns: 1fr 34px 1fr 34px 1fr; align-items: stretch; gap: 0; }
+  .flow .arrow { display: flex; align-items: center; justify-content: center; font-size: 26px; color: var(--primary); }
+  .step-n { font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 14px; color: var(--primary); letter-spacing: .1em; }
+  .foot { position: absolute; left: 64px; right: 64px; bottom: 22px; display: flex; justify-content: space-between; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #9B9C9E; }
+  .dark .foot { color: #6F707A; }
+  .pill { display: inline-block; border: 1px solid #3A3C46; border-radius: 999px; padding: 7px 16px; font-family: 'JetBrains Mono', monospace; font-size: 15px; color: #E6E6EC; margin-right: 10px; }
+  .note { background: var(--soft); border-radius: 12px; padding: 14px 18px; font-size: 15.5px; line-height: 1.45; }
+  .logo { display: flex; align-items: center; gap: 12px; font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 20px; }
+  .logo i { width: 30px; height: 30px; border-radius: 8px; background: var(--primary); display: inline-block; position: relative; }
+  .logo i::after { content: ''; position: absolute; right: 7px; top: 7px; width: 7px; height: 7px; border-radius: 50%; background: #fff; box-shadow: -9px 9px 0 #fff; }
+  .glow { position: absolute; right: -180px; top: -120px; width: 720px; height: 720px; border-radius: 50%; background: radial-gradient(closest-side, rgba(64, 47, 255, .55), rgba(64, 47, 255, 0)); }
+  .links td { font-size: 17px; } .links td:first-child { color: var(--muted); width: 190px; }
+  .arch { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; align-items: stretch; }
+  .arch .box { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 16px; }
+  .arch .box b { font-family: 'JetBrains Mono', monospace; display: block; margin-bottom: 6px; font-size: 16px; }
+  .arch .box span { font-size: 14.5px; color: var(--muted); line-height: 1.4; display: block; }
+</style>
+</head>
+<body>
+
+<!-- 1 -->
+<section class="slide dark">
+  <div class="glow"></div>
+  <div class="logo"><i></i>ФСП.Карьера</div>
+  <div style="margin-top: auto; position: relative;">
+    <p class="eyebrow">ЛЦТ 2026 · спецтрек Федерации спортивного программирования</p>
+    <h1>Не откликайтесь.<br>Подтверждайте —<br>и получайте офферы.</h1>
+    <p class="lead" style="margin-top: 26px;">Платформа подбора ИТ-специалистов с обратной механикой: категорию кандидата определяет подтверждаемый профиль, а работодатель сам приходит с оффером и зарплатой.</p>
+    <p style="margin-top: 30px;"><span class="pill">Команда «Граф магистралей»</span><span class="pill">Работающий прототип</span><span class="pill">Открытый код</span></p>
+  </div>
+  <div class="foot"><span>ФСП.Карьера</span><span>01</span></div>
+</section>
+
+<!-- 2 -->
+<section class="slide">
+  <p class="eyebrow">Проблема</p>
+  <h2>Отклик не работает ни для одной из сторон</h2>
+  <div class="grid g-2" style="grid-template-rows: auto;">
+    <div class="card">
+      <h3>Работодатель</h3>
+      <ul>
+        <li>Сотни нерелевантных откликов вручную фильтруют дорогие технические специалисты.</li>
+        <li>Резюме называет стек и места работы, но не подтверждает, что человек это умеет.</li>
+        <li>Отбор сводится к совпадению ключевых слов.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Соискатель</h3>
+      <ul>
+        <li>Откликается вслепую и не получает обратной связи.</li>
+        <li>Результаты соревнований по программированию никак не превращаются в карьерное преимущество.</li>
+        <li>Стек, грейд, роль в команде и формат работы на универсальных площадках не формализованы.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="note" style="margin-top: 22px;">У Федерации спортивного программирования есть то, чего нет у площадок поиска работы: объективные, проверяемые результаты участников. Мы строим подбор вокруг них.</div>
+  <div class="foot"><span>ФСП.Карьера</span><span>02</span></div>
+</section>
+
+<!-- 3 -->
+<section class="slide">
+  <p class="eyebrow">Решение</p>
+  <h2>Обратная механика: кнопки «откликнуться» в продукте нет</h2>
+  <div class="flow">
+    <div class="card"><p class="step-n">01 · СОИСКАТЕЛЬ</p><h3 style="margin-top: 8px;">Собирает профиль</h3><p class="muted">Привязывает ФСП ID, загружает резюме, проходит экспресс-тест. У каждого факта — источник и уровень подтверждения.</p></div>
+    <div class="arrow">→</div>
+    <div class="card"><p class="step-n">02 · ПЛАТФОРМА</p><h3 style="margin-top: 8px;">Относит к категории</h3><p class="muted">Сама определяет стек, грейд, роль в команде и формат работы — и показывает, из чего сложился результат.</p></div>
+    <div class="arrow">→</div>
+    <div class="card"><p class="step-n">03 · РАБОТОДАТЕЛЬ</p><h3 style="margin-top: 8px;">Приходит с оффером</h3><p class="muted">Находит нужную категорию, смотрит, чем подтверждён кандидат, и отправляет оффер с суммой зарплаты.</p></div>
+  </div>
+  <div class="kpis" style="margin-top: 24px;">
+    <div class="kpi"><div class="num">4</div><span>измерения категории: стек, грейд, роль, формат</span></div>
+    <div class="kpi"><div class="num">4</div><span>источника профиля с разным весом доверия</span></div>
+    <div class="kpi"><div class="num">0</div><span>внешних вызовов: персональные данные не покидают платформу</span></div>
+    <div class="kpi"><div class="num">0</div><span>чужих вакансий: платформа ничего не парсит</span></div>
+  </div>
+  <div class="foot"><span>ФСП.Карьера</span><span>03</span></div>
+</section>
+
+<!-- 4 -->
+<section class="slide">
+  <p class="eyebrow">Объективно подтверждаемый профиль</p>
+  <h2>Четыре источника — и у каждого свой вес доверия</h2>
+  <div class="grid g-text-shot">
+    <div>
+      <div class="card" style="padding: 18px 22px;">
+        <table>
+          <tr><th>Источник</th><th>Вес</th></tr>
+          <tr><td><span class="badge b-fsp">Подтверждено ФСП</span><br><span class="muted" style="font-size: 14.5px;">результаты и разряд из реестра</span></td><td class="w">100%</td></tr>
+          <tr><td><span class="badge b-test">Подтверждено тестом</span><br><span class="muted" style="font-size: 14.5px;">экспресс-тест платформы</span></td><td class="w">85%</td></tr>
+          <tr><td><span class="badge b-cv">Из резюме</span><br><span class="muted" style="font-size: 14.5px;">навыки и опыт, разбор правилами</span></td><td class="w">55%</td></tr>
+          <tr><td><span class="badge b-self">Заявлено</span><br><span class="muted" style="font-size: 14.5px;">олимпиады и достижения вручную</span></td><td class="w">35%</td></tr>
+        </table>
+      </div>
+      <p class="muted" style="font-size: 15.5px; margin-top: 16px;">Неподтверждённое не прячется: стек и грейд без подтверждения помечены прямо в карточке.</p>
+    </div>
+    <div class="shot"><img src="img/02-candidate-overview.jpg" alt=""></div>
+  </div>
+  <div class="foot"><span>ФСП.Карьера</span><span>04</span></div>
+</section>
+
+<!-- 5 -->
+<section class="slide">
+  <p class="eyebrow">Достижения участника ФСП</p>
+  <h2>Соревнования и олимпиады становятся карьерным капиталом</h2>
+  <div class="grid g-text-shot">
+    <div>
+      <ul>
+        <li>По каждому результату: соревнование, дисциплина, уровень, место, команда и роль в ней, ссылка на протокол.</li>
+        <li>Пять дисциплин: алгоритмическое, продуктовое, ИБ, робототехника, БАС.</li>
+        <li>Спортивный разряд или звание — от III разряда до мастера спорта.</li>
+        <li>Олимпиады вне реестра соискатель добавляет сам — они помечены «Заявлено» и весят втрое меньше.</li>
+      </ul>
+      <div class="note" style="margin-top: 18px;">Данных и API реестра у команд нет, поэтому реестр в прототипе смоделирован, а формат обмена мы предлагаем Федерации отдельным документом.</div>
+    </div>
+    <div class="shot"><img src="img/04-fsp-results.jpg" alt=""></div>
+  </div>
+  <div class="foot"><span>ФСП.Карьера</span><span>05</span></div>
+</section>
+
+<!-- 6 -->
+<section class="slide">
+  <p class="eyebrow">Объяснимость</p>
+  <h2>У грейда есть раскрываемое «почему»</h2>
+  <div class="grid g-text-shot">
+    <div>
+      <ul>
+        <li>Грейд складывается из баллов: опыт, тесты, каждый результат ФСП, разряд, заявленные достижения.</li>
+        <li>Опыт из резюме засчитывается с доверием 60%; после сданных тестов — 80% и 100%.</li>
+        <li>Без опыта работы грейд не выше Junior: спортивные результаты поднимают кандидата в выдаче, но не заменяют опыт.</li>
+        <li>Senior — только при опыте от 3 лет и подтверждении тестом или ФСП.</li>
+      </ul>
+      <p class="muted" style="font-size: 15.5px; margin-top: 16px;">Выдуманным резюме грейд не поднять: правило проверено тестами на шести опорных профилях.</p>
+    </div>
+    <div class="shot"><img src="img/03-grade-explained.jpg" alt=""></div>
+  </div>
+  <div class="foot"><span>ФСП.Карьера</span><span>06</span></div>
+</section>
+
+<!-- 7 -->
+<section class="slide">
+  <p class="eyebrow">Кабинет работодателя</p>
+  <h2>Витрина категорий вместо потока откликов</h2>
+  <div class="grid g-text-shot">
+    <div>
+      <ul>
+        <li>Матрица «стек × грейд»: сколько кандидатов в каждой клетке и сколько из них с результатами ФСП.</li>
+        <li>Срезы по роли в команде, формату работы и дисциплинам ФСП.</li>
+        <li>Клик по клетке открывает поиск именно по этой категории.</li>
+        <li>10 стеков и 4 грейда; в демо — 30 соискателей, у 21 есть результаты ФСП.</li>
+      </ul>
+    </div>
+    <div class="shot"><img src="img/05-matrix.jpg" alt=""></div>
+  </div>
+  <div class="foot"><span>ФСП.Карьера</span><span>07</span></div>
+</section>
+
+<!-- 8 -->
+<section class="slide">
+  <p class="eyebrow">Поиск</p>
+  <h2>Оценка 0–100 и объяснение, почему кандидат в выдаче</h2>
+  <div class="grid g-text-shot">
+    <div>
+      <div class="card" style="padding: 18px 22px;">
+        <table>
+          <tr><th>Компонент оценки</th><th>Вес</th></tr>
+          <tr><td>Навыки с учётом подтверждения</td><td class="w">45%</td></tr>
+          <tr><td>Совпадение с текстом запроса</td><td class="w">25%</td></tr>
+          <tr><td>Опыт и достижения</td><td class="w">20%</td></tr>
+          <tr><td>Подтверждённость профиля</td><td class="w">10%</td></tr>
+        </table>
+      </div>
+      <p class="muted" style="font-size: 15.5px; margin-top: 16px;">Запрос можно описать текстом: платформа распознаёт в нём навыки, стек и грейд. Сходство с текстом — лексическое, и мы прямо так его называем.</p>
+    </div>
+    <div class="shot"><img src="img/06-search.jpg" alt=""></div>
+  </div>
+  <div class="foot"><span>ФСП.Карьера</span><span>08</span></div>
+</section>
+
+<!-- 9 -->
+<section class="slide">
+  <p class="eyebrow">Оффер и приватность</p>
+  <h2>Контакты открываются только после принятого оффера</h2>
+  <div class="grid g-text-shot">
+    <div>
+      <ul>
+        <li>До оффера работодатель видит «Алексей С.», категорию и факты с источниками — без ФИО и контактов.</li>
+        <li>Телефон, почта, ник, ФИО и дата рождения вырезаются даже из «о себе» и цитат резюме.</li>
+        <li>Оффер всегда с суммой зарплаты и по конкретной вакансии.</li>
+        <li>Соискатель принимает или отклоняет — и только после «Принять» стороны видят контакты друг друга.</li>
+      </ul>
+      <p class="muted" style="font-size: 15.5px; margin-top: 16px;">Отдельный тест обходит все ответы работодателю и ищет в них личные данные соискателей.</p>
+    </div>
+    <div class="shot"><img src="img/08-card-contacts.jpg" alt=""></div>
+  </div>
+  <div class="foot"><span>ФСП.Карьера</span><span>09</span></div>
+</section>
+
+<!-- 10 -->
+<section class="slide">
+  <p class="eyebrow">Архитектура</p>
+  <h2>Работающий прототип: запуск одной командой</h2>
+  <div class="arch">
+    <div class="box"><b>Vue 3 + TypeScript</b><span>Два кабинета, свой CSS в цветах ФСП, вёрстка от 375 px. Ходит только на /api.</span></div>
+    <div class="box"><b>FastAPI</b><span>API v1 с документацией OpenAPI, единый формат ошибок, роли, JWT.</span></div>
+    <div class="box"><b>Доменный пакет</b><span>Чистые функции без базы и сети: онтология из 66 навыков, разбор резюме, тесты, грейд, матчинг.</span></div>
+    <div class="box"><b>PostgreSQL 17</b><span>Миграции Alembic. Docker Compose поднимает базу, API и веб.</span></div>
+  </div>
+  <div class="kpis" style="margin-top: 22px;">
+    <div class="kpi"><div class="num">1337</div><span>автотестов бэкенда, включая сценарий показа и приватность</span></div>
+    <div class="kpi"><div class="num">9</div><span>шагов сквозного сценария проходят на собранном стенде</span></div>
+    <div class="kpi"><div class="num">4</div><span>экспресс-теста: Python, JavaScript, SQL, алгоритмы</span></div>
+    <div class="kpi"><div class="num">3</div><span>документа: README с развёртыванием, архитектура, интеграция с ФСП</span></div>
+  </div>
+  <div class="note" style="margin-top: 22px;">Внешних сервисов нет: резюме разбирается правилами на нашем сервере, поэтому персональные данные никуда не уходят. Языковая модель подключается позже как отдельный провайдер.</div>
+  <div class="foot"><span>ФСП.Карьера</span><span>10</span></div>
+</section>
+
+<!-- 11 -->
+<section class="slide">
+  <p class="eyebrow">Интеграция и честные ограничения</p>
+  <h2>Что нужно от Федерации, чтобы запустить это на реальных данных</h2>
+  <div class="grid g-2" style="grid-template-rows: auto;">
+    <div class="card">
+      <h3>Что предлагаем</h3>
+      <ul>
+        <li>Формат записи спортсмена и результата — в документе <span class="mono">docs/FSP_INTEGRATION.md</span>.</li>
+        <li>Вход через аккаунт ФСП с согласием спортсмена вместо сверки ФИО и даты рождения.</li>
+        <li>Обмен «сервер — сервер» с сервисным токеном и отзывом согласия.</li>
+        <li>Уточнить вместе: веса уровней соревнований, мест и разрядов.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Что в прототипе упрощено</h3>
+      <ul>
+        <li>Реестр ФСП смоделирован — в интерфейсе это написано на каждой странице.</li>
+        <li>Резюме разбирается правилами, без языковой модели.</li>
+        <li>Сходство с текстом запроса лексическое, не семантика.</li>
+        <li>Экспресс-тест из 6 вопросов — ориентир, а не аттестация.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot"><span>ФСП.Карьера</span><span>11</span></div>
+</section>
+
+<!-- 12 -->
+<section class="slide dark">
+  <div class="glow"></div>
+  <div class="logo"><i></i>ФСП.Карьера</div>
+  <div style="margin-top: 40px; position: relative;">
+    <p class="eyebrow">Посмотреть самим</p>
+    <h1 style="font-size: 44px;">Прототип открыт: войдите в демо<br>и пройдите сценарий за 5 минут</h1>
+    <table class="links" style="margin-top: 30px; max-width: 1000px;">
+      <tr><td style="border-color: #3A3C46;">Прототип</td><td class="mono" style="border-color: #3A3C46; color: #fff;">__STAND_URL__</td></tr>
+      <tr><td style="border-color: #3A3C46;">Репозиторий</td><td class="mono" style="border-color: #3A3C46; color: #fff;">github.com/wrknatul/fsp-career</td></tr>
+      <tr><td style="border-color: #3A3C46;">Документация API</td><td class="mono" style="border-color: #3A3C46; color: #fff;">__DOCS_URL__</td></tr>
+      <tr><td style="border-color: #3A3C46;">Демо-соискатель</td><td class="mono" style="border-color: #3A3C46; color: #fff;">demo.candidate@fsp-career.test</td></tr>
+      <tr><td style="border-color: #3A3C46;">Демо-работодатель</td><td class="mono" style="border-color: #3A3C46; color: #fff;">demo.employer@fsp-career.test</td></tr>
+      <tr><td style="border-color: #3A3C46;">Пароль демо-учёток</td><td class="mono" style="border-color: #3A3C46; color: #fff;">demo12345</td></tr>
+    </table>
+    <p style="margin-top: 26px; color: #C9CAD3; font-size: 17px;">Команда «Граф магистралей»: Максим Лутан, Кирилл Соседов</p>
+  </div>
+  <div class="foot"><span>ФСП.Карьера</span><span>12</span></div>
+</section>
+
+</body>
+</html>
